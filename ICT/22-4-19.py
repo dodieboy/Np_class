@@ -67,11 +67,14 @@ print(a ** b)
 '''
     #convert y = ax^2 + bx + c
     y = (a * x * x) + (b * x) +c
+    #or
+    y = (a * x * * 2) + (b * x) +c
 
     #convert y= ((ax)^3 + bx^2 + cx) / 4
     y = ((a * x * x * x) + (b * x * x) + (c * x)) / 4
+    #or
+    y = ((a * x * * 3) + (b * x ** 2 + (c * x)) / 4
 
     #convert p = 1/3 + rs - uv
     p = ((1/3) + (r * s) - (u * v))
 '''
-
