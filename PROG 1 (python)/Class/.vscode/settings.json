@@ -1,0 +1,24 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.wordWrap": "on",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "window.zoomLevel": 0,
+    "php.validate.executablePath": "C:\\xampp\\php\\php.exe",
+    "phpfmt.enable_auto_align": true,
+    "launch": {
+        "configurations": [
+            {
+            "type": "php",
+            "request": "launch",
+            "name": "Run using local PHP Interpreter",
+            "program": "${file}",
+            "runtimeExecutable": "C:\\xampp\\php\\php.exe"
+            }],
+        },
+        "liveServer.settings.donotVerifyTags": true,
+        "editor.suggestSelection": "first",
+        "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+        "python.jediEnabled": false,
+        "code-runner.runInTerminal": true,
+        "python.pythonPath": "C:\\Users\\Alan\\AppData\\Local\\Programs\\Python\\Python37-32\\python.exe"
+}
