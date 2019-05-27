@@ -50,7 +50,7 @@ def convert_code(num):
     
     print(morse_code) #Modify to display the morse code
     
-    #return morse_code#Do not remove this line
+    return morse_code#Do not remove this line
 
     
 #Do not remove the next line
