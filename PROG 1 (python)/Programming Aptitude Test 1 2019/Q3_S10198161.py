@@ -4,7 +4,7 @@ num = (9,4,5,4,3,2)
 alphabet = ('A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z')
 last_alphabet = ('A','Z','Y','X','U','T','S','R','P','M','L','K','J','H','G','E','D','C','B')
 
-#way 1
+#method 1
 '''
 for i in range(0, len(alphabet)):
     if plate[1] == alphabet[i]:
@@ -16,14 +16,26 @@ for i in range(0, len(alphabet)):
 temp = temp + plate[3] + plate[4] + plate[5] + plate[6]
 '''
 
-#way2
+#method 2
+'''
 for i in range(0, len(alphabet)):
     if plate[1] == alphabet[i]:
         A = str(i + 1)
     if plate[2] == alphabet[i]:
         B = str(i + 1)
 temp = A + B + plate[3] + plate[4] + plate[5] + plate[6]
+'''
 
+#method 3
+def convert(c):
+    n = ord(c.upper()) - ord('A') + 1
+    return n
+A = convert(plate[1])
+B = convert(plate[2])
+temp = str(A) + str(B) + plate[3] + plate[4] + plate[5] + plate[6]
+
+
+#needed for all 3 method
 cal = 0
 for i in range(0, 6):
     cal += int(temp[i]) * num[i]
