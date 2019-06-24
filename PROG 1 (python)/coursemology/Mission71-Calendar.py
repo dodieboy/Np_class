@@ -27,7 +27,7 @@ days = int(input('Enter number of days: '))
 day_of_week = input('The first day of the week(M,T,W,TH,F,SA,SU): ')
 
 def print_calendar(days,day_of_week):
-    formats = ['SU','M','T','W','TH','F','SU']
+    formats = ['SU','M','T','W','TH','F','SA']
     start = 0
     week = []
 
