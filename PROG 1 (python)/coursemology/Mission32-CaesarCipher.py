@@ -40,7 +40,6 @@ def caesarEncrypt(plaintext, key):
          ciphertext += chr((ord(char) + key - 97) % 26 + 97)
 
     print(ciphertext) #Modify to display the encrypted result
-    print("test")
     return ciphertext #Do not remove this line
 
     
