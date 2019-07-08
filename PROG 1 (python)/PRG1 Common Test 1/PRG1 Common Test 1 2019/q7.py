@@ -1,7 +1,5 @@
 num = int(input('Enter a number between 0 and 5000: '))
 
-temp1 = ((num**2) + num)/2
-
 temp = 0
 isTriangle = False
 while temp <= num:

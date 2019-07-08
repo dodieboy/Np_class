@@ -1,0 +1,5 @@
+S/N       Items     Quantity  
+------------------------------
+1         shoe      10        
+2         sock      5         
+3         gloves    32        
