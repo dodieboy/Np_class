@@ -27,7 +27,7 @@ for line in list1:
     f.write(line + '\n')
 f.close()
 '''
-#activity 3
+#week 13 activity 3
 '''
 filename = "receipt.txt"
 
@@ -42,3 +42,31 @@ file.write('{:<10}{:<10}{:<10}\n'.format('----------','----------','----------')
 for i in range(len(items)):
     file.write('{:<10}{:<10}{:<10}\n'.format(i+1,items[i],quantity[i]))
 '''
+
+#week 12 activty 1
+def obtain_grade(mark):
+    if mark >= 84.5 and mark <= 100:
+        grade = 'A+'
+    elif mark >= 79.5:
+        grade = 'A'
+    elif mark >= 74.5:
+        grade = 'B+'
+    elif mark >= 69.5:
+        grade = 'B'
+    elif mark >= 64.5:
+        grade = 'C+'
+    elif mark >= 59.5:
+        grade = 'C'
+    elif mark >= 54.5:
+        grade = 'D+'
+    elif mark >= 49.5:
+        grade = 'D'
+    else:
+        grade = 'F'
+    return grade
+
+
+student_marks = [['Mary', 90.5], ['Charles', 60.4],['John', 70.5], ['Javier', 32.0], ['Luke', 46.7]]
+print('{:<10}{:<10}{:<10}'.format('Student', 'Marks', 'Grade'))
+for i in range(len(student_marks)):
+    print(print(('{:<10}{:<10}{:<10}').format(student_marks[i][0], str(student_marks[i][1]),obtain_grade(float(student_marks[i][1])))))
