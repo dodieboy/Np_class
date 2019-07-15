@@ -28,9 +28,15 @@ filename = "median-resale-prices-for-registered-applications-by-town-and-flat-ty
 
 #Create your function here
 def ReadCSV(filename):
+    #comment if uploading to coursemology
+    import os
+     #pls change to the location with the csv file
+    os.chdir(r"C:\Users\Alan\Desktop\school\Np\Np_class\PROG 1 (python)\coursemology")
+    
     file = open(filename)
     tempList = []
-
+    
+    #to convert csv data to list
     for line in file:
         formats = line.replace("\n","").split(",")
         tempList.append(formats)

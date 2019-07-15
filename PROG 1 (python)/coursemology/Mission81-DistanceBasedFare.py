@@ -31,7 +31,14 @@
 
 #Create your function here
 def calculate_fare(board,alight):
+    #comment if uploading to coursemology
+    import os
+     #pls change to the location with the csv file
+    os.chdir(r"C:\Users\Alan\Desktop\school\Np\Np_class\PROG 1 (python)\coursemology")
+    
     file = open("distance-based-fare.csv")
+
+    #to convert csv data to list
     fare_list=[]
     for line in file:
         formats = line.replace("\n","").split(",")
@@ -45,6 +52,7 @@ def calculate_fare(board,alight):
         busstop_list.append(formats)
     busstop_list.pop(0)
 
+    #declare variable
     distance = 0
     fare = 0
 
