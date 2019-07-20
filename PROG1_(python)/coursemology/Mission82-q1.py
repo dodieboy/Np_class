@@ -16,7 +16,7 @@ def images(row,col):
 
     logo = []
     for i in range(64):
-        logo.append(0)
+        logo.append(O)
     
     logo[col+row*8-1] = G
     return logo
