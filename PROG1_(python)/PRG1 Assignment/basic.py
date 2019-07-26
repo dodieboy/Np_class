@@ -72,25 +72,25 @@ def start_game(maze_lists):
                 game_map[A_cord[0]][A_cord[1]] = "O"
                 A_cord[0] -= 1
             else:
-                print('Invaild movement, Please try agian')
+                print('Invaild movement, Please try again')
         elif inputs == 'S':
             if A_cord[0] != len(game_list) and game_list[A_cord[0]+1][A_cord[1]] != "X":
                 game_map[A_cord[0]][A_cord[1]] = "O"
                 A_cord[0] += 1
             else:
-                print('Invaild movement, Please try agian')
+                print('Invaild movement, Please try again')
         elif inputs == 'A':
             if A_cord[1] != 0 and game_list[A_cord[0]][A_cord[1]-1] != "X":
                 game_map[A_cord[0]][A_cord[1]] = "O"
                 A_cord[1] -= 1
             else:
-                print('Invaild movement, Please try agian')
+                print('Invaild movement, Please try again')
         elif inputs == 'D':
             if A_cord[1] != len(game_list[0]) and game_list[A_cord[0]][A_cord[1]+1] != "X":
                 game_map[A_cord[0]][A_cord[1]] = "O"
                 A_cord[1] += 1
             else:
-                print('Invaild movement, Please try agian')
+                print('Invaild movement, Please try again')
         if A_cord == B_cord:
             print('You have completed the maze!!!')
             game = False
