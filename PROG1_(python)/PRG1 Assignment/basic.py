@@ -62,8 +62,8 @@ def start_game(maze_lists):
         print(u"option [3]: Play Maze game\n===============================================")
         for i in range(len(map)):
             print(map[i])
-        print("Location of Start (A) = (Row {}, Column {})".format(A_cord[0]+1, A_cord[1]))
-        print("Location of Start (B) = (Row {}, Column {})".format(B_cord[0]+1, B_cord[1]))
+        print("Location of Start (A) = (Row {}, Column {})".format(A_cord[0]+1, A_cord[1]+1))
+        print("Location of Start (B) = (Row {}, Column {})".format(B_cord[0]+1, B_cord[1]+1))
         inputs = input("Press 'W' for UP, 'A' for LEFT, 'S' for DOWN, 'D' for RIGHT, 'M' for Main Menu: ").upper()
         if inputs == 'M':
             game = False
