@@ -43,25 +43,25 @@ def file_load():
     print("Number of lines read: {}".format(num_line))
 def maps(map):
     print("option [2]: View Maze\n===============================================\n")
-    for i in range(len(map)):
-        print(map[i])
+    for row in range(len(map)):
+        print(map[row])
 def start_game(maze_lists):
     game_list = copy.deepcopy(maze_lists)
     A_cord = [] #row,col
     B_cord = [] #row,col
     game = True
-    for i in range(len(game_list)):
-        for j in range(len(game_list[i])):
-            if game_list[i][j] == 'A':
-                A_cord = [i,j]
-                game_list[i][j] = 'O'
-            elif game_list[i][j] == 'B':
-                B_cord = [i,j]
+    for row in range(len(game_list)):
+        for col in range(len(game_list[row])):
+            if game_list[row][col] == 'A':
+                A_cord = [row,col]
+                game_list[row][col] = 'O'
+            elif game_list[row][col] == 'B':
+                B_cord = [row,col]
     while game == True:
         game_list[A_cord[0]][A_cord[1]] = "A"
         print(u"option [3]: Play Maze game\n===============================================")
-        for i in range(len(map)):
-            print(map[i])
+        for row in range(len(game_list)):
+            print(game_list[row])
         print("Location of Start (A) = (Row {}, Column {})".format(A_cord[0]+1, A_cord[1]+1))
         print("Location of Start (B) = (Row {}, Column {})".format(B_cord[0]+1, B_cord[1]+1))
         inputs = input("Press 'W' for UP, 'A' for LEFT, 'S' for DOWN, 'D' for RIGHT, 'M' for Main Menu: ").upper()
@@ -69,25 +69,25 @@ def start_game(maze_lists):
             game = False
         elif inputs == 'W':
             if A_cord[0] != 0 and game_list[A_cord[0]-1][A_cord[1]] != "X":
-                game_map[A_cord[0]][A_cord[1]] = "O"
+                game_list[A_cord[0]][A_cord[1]] = "O"
                 A_cord[0] -= 1
             else:
                 print('Invaild movement, Please try again')
         elif inputs == 'S':
             if A_cord[0] != len(game_list) and game_list[A_cord[0]+1][A_cord[1]] != "X":
-                game_map[A_cord[0]][A_cord[1]] = "O"
+                game_list[A_cord[0]][A_cord[1]] = "O"
                 A_cord[0] += 1
             else:
                 print('Invaild movement, Please try again')
         elif inputs == 'A':
             if A_cord[1] != 0 and game_list[A_cord[0]][A_cord[1]-1] != "X":
-                game_map[A_cord[0]][A_cord[1]] = "O"
+                game_list[A_cord[0]][A_cord[1]] = "O"
                 A_cord[1] -= 1
             else:
                 print('Invaild movement, Please try again')
         elif inputs == 'D':
             if A_cord[1] != len(game_list[0]) and game_list[A_cord[0]][A_cord[1]+1] != "X":
-                game_map[A_cord[0]][A_cord[1]] = "O"
+                game_list[A_cord[0]][A_cord[1]] = "O"
                 A_cord[1] += 1
             else:
                 print('Invaild movement, Please try again')
@@ -96,18 +96,18 @@ def start_game(maze_lists):
             game = False
 def config_maze(inputs, values ,types):
     if types == 'point':
-        for i in range(len(maze_list)):
-            for j in range(len(maze_list[i])):
-                if maze_list[i][j] == values:
-                    maze_list[i][j] = 'X'
+        for row in range(len(maze_list)):
+            for col in range(len(maze_list[row])):
+                if maze_list[row][col] == values:
+                    maze_list[row][col] = 'X'
     formats = inputs.split(",")
     maze_list[int(formats[0])-1][int(formats[1])-1] = values
 def config_menu():
     config1 = True
     while config1 == True:
         print("option [4]: CONFIGURATION MENU\n===============================================\n")
-        for i in range(len(map)):
-            print(map[i])
+        for row in range(len(map)):
+            print(map[row])
         print("1.Create wall")
         print("2.Create passageway")
         print("3.Create start point")
@@ -120,8 +120,8 @@ def config_menu():
             config2 = True
             while config2 == True:
                 print("Create wall\n===============================================")
-                for i in range(len(map)):
-                    print(map[i])
+                for row in range(len(map)):
+                    print(map[row])
                 print("\nEnter the coordinate of the item you wish to change to wall E.g. Row, Column")
                 print("Press 'B' to return to Configure Menu")
                 print("Press 'M' to return to Main Menu")
@@ -139,8 +139,8 @@ def config_menu():
             config2 = True
             while config2 == True:
                 print("Create passageway\n===============================================\n")
-                for i in range(len(map)):
-                    print(map[i])
+                for row in range(len(map)):
+                    print(map[row])
                 print("\nEnter the coordinate of the item you wish to change to passageway E.g. Row, Column")
                 print("Press 'B' to return to Configure Menu")
                 print("Press 'M' to return to Main Menu")
@@ -158,8 +158,8 @@ def config_menu():
             config2 = True
             while config2 == True:
                 print("Create start point\n===============================================\n")
-                for i in range(len(map)):
-                    print(map[i])
+                for row in range(len(map)):
+                    print(map[row])
                 print("\nEnter the coordinate of the item you wish to change to start point E.g. Row, Column")
                 print("Press 'B' to return to Configure Menu")
                 print("Press 'M' to return to Main Menu")
@@ -177,8 +177,8 @@ def config_menu():
             config2 = True
             while config2 == True:
                 print("Create end point\n===============================================\n")
-                for i in range(len(map)):
-                    print(map[i])
+                for row in range(len(map)):
+                    print(map[row])
                 print("\nEnter the coordinate of the item you wish to change to end point E.g. Row, Column")
                 print("Press 'B' to return to Configure Menu")
                 print("Press 'M' to return to Main Menu")
@@ -196,9 +196,9 @@ def export():
     print("Option [5] Export maze to file\n")
     file = open(input("Enter filename to save to: "),"w+")
     temp = ""
-    for i in range(len(maze_list)):
-        for j in range(len(maze_list[i])):
-            temp += maze_list[i][j]
+    for row in range(len(maze_list)):
+        for col in range(len(maze_list[row])):
+            temp += maze_list[row][col]
         temp+="\n"
     file.write(temp)
     file.close()
@@ -208,10 +208,10 @@ def create_map():
     if inputs2 == "Y":
         inputs2 = input("Enter the dimension of the maze (row,colum): ").split(",")
         maze_list.clear()
-        for i in range(int(inputs2[0])):
+        for row in range(int(inputs2[0])):
             maze_list.append([])
-            for j in range(int(inputs2[1])):
-                maze_list[i].append('x')
+            for col in range(int(inputs2[1])):
+                maze_list[col].append('X')
         print("\nA new maze of {} by {} has been created.".format(inputs2[0],inputs2[1]))
         print("Please run configure maze to start cinfiguring new maze")
 #main code
