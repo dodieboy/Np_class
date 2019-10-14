@@ -3,53 +3,44 @@ var1 = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R',
 inputs = input('Plaintext: ').replace(' ','').upper()
 key = input('Key: ').replace(' ','').upper()
 col = math.ceil(len(inputs)/len(key))
-
-#vaildating key
-def invalidKey():
-    print('Invalid key')
-    exit()
-
 #asign number to key
-if key.isdigit() == False:
-    newKey = []
-    temp = 0
+newKey, temp = [], 0
+for i in range(len(key)):
+    newKey.append(0)
+if key.isdigit() == True:
     for i in range(len(key)):
-        newKey.append(0)
+        newKey[i] = int(key[i])
+else:
     for j in range(len(var1)):
         for i in range(len(key)):
             if key[i] == var1[j]:
                 temp += 1
                 newKey[i] = temp
-
-#formatting part 1
-newInputs = []
-temp = 0
+#initialization
+newInputs, reorder = [], []
 for i in range(col):
     newInputs.append([])
-for i in range(len(key)):
+    reorder.append([])
+    for j in range(len(newKey)):
+        reorder[i].append("")
+#formatting
+temp = 0
+for i in range(len(newKey)):
     for j in range(col):
         if temp >= len(inputs):
             break
         newInputs[j].append(inputs[temp])
         temp += 1
-
-#reorder
-temp = 0
-temp1 = []
-for i in range(col):
-    temp1.append([])
-    for j in range(len(newKey)):
-        temp1[i].append("")
-for i in range(len(key)):
+#reordering
+for i in range(len(newKey)):
     for j in range(len(newKey)):
         if newKey[j] == i+1:
             for k in range(col):
-                temp1[k][i] = newInputs[k][j]
+                reorder[k][i] = newInputs[k][j]
             break
-
 #output
 output = ""
-for i in range(len(temp1)):
-    for j in range(len(temp1[i])):
-        output += temp1[i][j]
+for i in range(len(reorder)):
+    for j in range(len(reorder[i])):
+        output += reorder[i][j]
 print(output)
