@@ -1,0 +1,6 @@
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\week 1 - First C program\week 1 - First C program\bin\Debug\week 1 - First C program.exe.config
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\week 1 - First C program\week 1 - First C program\bin\Debug\week 1 - First C program.exe
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\week 1 - First C program\week 1 - First C program\bin\Debug\week 1 - First C program.pdb
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\week 1 - First C program\week 1 - First C program\obj\Debug\week 1 - First C program.csprojAssemblyReference.cache
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\week 1 - First C program\week 1 - First C program\obj\Debug\week 1 - First C program.exe
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\week 1 - First C program\week 1 - First C program\obj\Debug\week 1 - First C program.pdb

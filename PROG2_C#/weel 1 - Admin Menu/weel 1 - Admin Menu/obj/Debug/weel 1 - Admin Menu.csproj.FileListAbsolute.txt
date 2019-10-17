@@ -1,0 +1,6 @@
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\weel 1 - Admin Menu\weel 1 - Admin Menu\bin\Debug\weel 1 - Admin Menu.exe.config
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\weel 1 - Admin Menu\weel 1 - Admin Menu\bin\Debug\weel 1 - Admin Menu.exe
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\weel 1 - Admin Menu\weel 1 - Admin Menu\bin\Debug\weel 1 - Admin Menu.pdb
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\weel 1 - Admin Menu\weel 1 - Admin Menu\obj\Debug\weel 1 - Admin Menu.csprojAssemblyReference.cache
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\weel 1 - Admin Menu\weel 1 - Admin Menu\obj\Debug\weel 1 - Admin Menu.exe
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\weel 1 - Admin Menu\weel 1 - Admin Menu\obj\Debug\weel 1 - Admin Menu.pdb

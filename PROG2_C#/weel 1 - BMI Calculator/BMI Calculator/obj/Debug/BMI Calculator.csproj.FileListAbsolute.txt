@@ -1,0 +1,18 @@
+F:\School\ADE\Code\Console Application\BMI Calculator\BMI Calculator\bin\Debug\BMI Calculator.exe.config
+F:\School\ADE\Code\Console Application\BMI Calculator\BMI Calculator\bin\Debug\BMI Calculator.exe
+F:\School\ADE\Code\Console Application\BMI Calculator\BMI Calculator\bin\Debug\BMI Calculator.pdb
+F:\School\ADE\Code\Console Application\BMI Calculator\BMI Calculator\obj\Debug\BMI Calculator.csproj.CoreCompileInputs.cache
+F:\School\ADE\Code\Console Application\BMI Calculator\BMI Calculator\obj\Debug\BMI Calculator.exe
+F:\School\ADE\Code\Console Application\BMI Calculator\BMI Calculator\obj\Debug\BMI Calculator.pdb
+C:\Users\Alan\Desktop\school\ITE\ADE\Code\Console Application\BMI Calculator\BMI Calculator\bin\Debug\BMI Calculator.exe.config
+C:\Users\Alan\Desktop\school\ITE\ADE\Code\Console Application\BMI Calculator\BMI Calculator\bin\Debug\BMI Calculator.exe
+C:\Users\Alan\Desktop\school\ITE\ADE\Code\Console Application\BMI Calculator\BMI Calculator\bin\Debug\BMI Calculator.pdb
+C:\Users\Alan\Desktop\school\ITE\ADE\Code\Console Application\BMI Calculator\BMI Calculator\obj\Debug\BMI Calculator.csprojAssemblyReference.cache
+C:\Users\Alan\Desktop\school\ITE\ADE\Code\Console Application\BMI Calculator\BMI Calculator\obj\Debug\BMI Calculator.exe
+C:\Users\Alan\Desktop\school\ITE\ADE\Code\Console Application\BMI Calculator\BMI Calculator\obj\Debug\BMI Calculator.pdb
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\weel 1 - BMI Calculator\BMI Calculator\bin\Debug\BMI Calculator.exe.config
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\weel 1 - BMI Calculator\BMI Calculator\bin\Debug\BMI Calculator.exe
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\weel 1 - BMI Calculator\BMI Calculator\bin\Debug\BMI Calculator.pdb
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\weel 1 - BMI Calculator\BMI Calculator\obj\Debug\BMI Calculator.exe
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\weel 1 - BMI Calculator\BMI Calculator\obj\Debug\BMI Calculator.pdb
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\weel 1 - BMI Calculator\BMI Calculator\obj\Debug\BMI Calculator.csprojAssemblyReference.cache
