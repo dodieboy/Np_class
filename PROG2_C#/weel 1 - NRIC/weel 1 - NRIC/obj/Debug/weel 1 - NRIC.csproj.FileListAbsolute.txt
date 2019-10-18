@@ -1,6 +1,0 @@
-C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\weel 1 - NRIC\weel 1 - NRIC\bin\Debug\weel 1 - NRIC.exe.config
-C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\weel 1 - NRIC\weel 1 - NRIC\bin\Debug\weel 1 - NRIC.exe
-C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\weel 1 - NRIC\weel 1 - NRIC\bin\Debug\weel 1 - NRIC.pdb
-C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\weel 1 - NRIC\weel 1 - NRIC\obj\Debug\weel 1 - NRIC.exe
-C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\weel 1 - NRIC\weel 1 - NRIC\obj\Debug\weel 1 - NRIC.pdb
-C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\weel 1 - NRIC\weel 1 - NRIC\obj\Debug\weel 1 - NRIC.csprojAssemblyReference.cache
