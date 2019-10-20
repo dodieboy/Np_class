@@ -13,10 +13,11 @@ namespace week_1___Distance_Based_Fares
         {
             string busFile = "bus_174.csv";
             string distanceFile = "distance-based-fare.csv";
-            string path = Path.Combine(Environment.CurrentDirectory, @"Data\", busFile);
-            string[] tempBus = File.ReadAllText(path).Replace("\r", string.Empty).Split('\n');
-            string[,] bus = new string[tempBus.Length-2, 4];
-            for(int i = 1; i < tempBus.Length-1; i++)
+
+            string path = Path.Combine(Environment.CurrentDirectory, @"Data\", busFile); //set the path to bus_174.csv
+            string[] tempBus = File.ReadAllText(path).Replace("\r", string.Empty).Split('\n'); //read the csv and write it into a array, using '\n' to split. And remove "/r" from the csv. eg. [clementi ave kdfkje, jurongwesgv]
+            string[,] bus = new string[tempBus.Length-2, 4]; //declare a array in a array. eg.[[clementi,road 5,rgr,gre],[jurong,geg,adwfd,addw]]
+            for(int i = 1; i < tempBus.Length-1; i++) //format tempBus to bus format
             {
                 string[] temp = tempBus[i].Split(',');
                 for (int j = 0; j < 4; j++)
@@ -24,10 +25,11 @@ namespace week_1___Distance_Based_Fares
                     bus[i-1, j] = temp[j];
                 }
             }
-            path = Path.Combine(Environment.CurrentDirectory, @"Data\", distanceFile);
-            string[] tempFare = File.ReadAllText(path).Replace("\r", string.Empty).Split('\n');
-            string[,] fare = new string[tempFare.Length - 2, 2];
-            for(int i = 1; i < tempFare.Length - 1; i++)
+
+            path = Path.Combine(Environment.CurrentDirectory, @"Data\", distanceFile); //set the path to distance-based-fare.csv
+            string[] tempFare = File.ReadAllText(path).Replace("\r", string.Empty).Split('\n'); //read the csv and write it into a array, using '\n' to split. And remove "/r" from the csv. eg. [clementi ave kdfkje, jurongwesgv]
+            string[,] fare = new string[tempFare.Length - 2, 2]; //declare a array in a array. eg.[[clementi,road 5,rgr,gre],[jurong,geg,adwfd,addw]]
+            for (int i = 1; i < tempFare.Length - 1; i++) //format tempBus to bus format
             {
                 string[] temp = tempFare[i].Split(',');
                 for (int j = 0; j < 2; j++)
@@ -36,16 +38,20 @@ namespace week_1___Distance_Based_Fares
                 }
             }
 
+            //to print all bus stop
             Console.WriteLine(String.Format("{0,-15} {1,-15} {2,-20} {3,-30}", "Distance (KM)", "Bus Stop Code", "Road", "Bus Stop Description"));
             for(int i = 0; i < bus.Length/4; i++)
             {
                 Console.WriteLine(String.Format("{0,-15} {1,-15} {2,-20} {3,-30}", bus[i,0], bus[i, 1], bus[i, 2], bus[i, 3]));
             }
 
+            //ask input
             Console.Write("Enter boarding bus stop: ");
             string boarding = Console.ReadLine();
             Console.Write("Enter alighting bus stop: ");
             string alighting = Console.ReadLine();
+
+            //calculate distance
             double distance = 0;
             for(int i = 0; i < bus.Length/4; i++)
             {
@@ -59,6 +65,8 @@ namespace week_1___Distance_Based_Fares
                 }
             }
             Console.WriteLine("Distance travelled: {0}km", distance);
+
+            //calculate fare
             for(int i = 0; i < fare.Length/2 -2; i++)
             {
                 if (distance < double.Parse(fare[i, 0].ToString()))
@@ -68,6 +76,7 @@ namespace week_1___Distance_Based_Fares
                 }
             }
 
+            //calcute duration
             Console.WriteLine("Estimated duration: {0}mins", distance * 4);
             Console.Read();
         }
