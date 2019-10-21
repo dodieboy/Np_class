@@ -13,6 +13,7 @@ namespace week_1___Distance_Based_Fares
         {
             string busFile = "bus_174.csv";
             string distanceFile = "distance-based-fare.csv";
+            double distance = 0;
 
             string path = Path.Combine(Environment.CurrentDirectory, @"Data\", busFile); //set the path to bus_174.csv
             string[] tempBus = File.ReadAllText(path).Replace("\r", string.Empty).Split('\n'); //read the csv and write it into a array, using '\n' to split. And remove "/r" from the csv. eg. [clementi ave kdfkje, jurongwesgv]
@@ -48,36 +49,48 @@ namespace week_1___Distance_Based_Fares
             //ask input
             Console.Write("Enter boarding bus stop: ");
             string boarding = Console.ReadLine();
+            bool check1 = false;
+            bool check2 = false;
+
             Console.Write("Enter alighting bus stop: ");
             string alighting = Console.ReadLine();
 
             //calculate distance
-            double distance = 0;
             for(int i = 0; i < bus.Length/4; i++)
             {
                 if(bus[i, 1] == alighting)
                 {
                     distance += double.Parse(bus[i, 0]);
+                    check1 = true;
                 }
                 else if (bus[i, 1] == boarding)
                 {
                     distance -= double.Parse(bus[i, 0]);
+                    check2 = true;
                 }
             }
-            Console.WriteLine("Distance travelled: {0}km", distance);
-
-            //calculate fare
-            for(int i = 0; i < fare.Length/2 -2; i++)
+            if(check1 && check2) //check is the bus stop can be found
             {
-                if (distance < double.Parse(fare[i, 0].ToString()))
-                {
-                    Console.WriteLine("Fare to pay: ${0}", double.Parse(fare[i,1])/100);
-                    break;
-                }
-            }
+                distance = Math.Abs(distance); //check distance to postive number if it is negetive
+                Console.WriteLine("Distance travelled: {0}km", distance);
 
-            //calcute duration
-            Console.WriteLine("Estimated duration: {0}mins", distance * 4);
+                //calculate fare
+                for (int i = 0; i < fare.Length / 2 - 2; i++)
+                {
+                    if (distance < double.Parse(fare[i, 0].ToString()))
+                    {
+                        Console.WriteLine("Fare to pay: ${0}", double.Parse(fare[i, 1]) / 100);
+                        break;
+                    }
+                }
+
+                //calcute duration
+                Console.WriteLine("Estimated duration: {0}mins", distance * 4);
+            }
+            else
+            {
+                Console.WriteLine("You have key in a invalid boarding or alighting bus stop");
+            }
             Console.Read();
         }
     }
