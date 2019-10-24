@@ -18,6 +18,15 @@ namespace Practical2
             }
             Console.WriteLine();
         }
+        public static void DisplayOutputSales(List<SalesEmployee> eList)
+        {
+            Console.WriteLine("{0, -3} {1, -16} {2, -13} {3, -6}", "ID", "Name", "Basic Salary", "Sales");
+            for (int i = 0; i < eList.Count; i++)
+            {
+                Console.WriteLine("{0, -3} {1, -16} {2, -13} {3, -6}", eList[i].Id, eList[i].Name, eList[i].BasicSalary, eList[i].Sales);
+            }
+            Console.WriteLine();
+        }
         public static Student GetStudent()
         {
             Console.WriteLine("Please enter the student ID: ");
@@ -66,8 +75,8 @@ namespace Practical2
             DisplayOutput(studentList);
 
             //add new Student object to List and print all
-            //studentList.Add(GetStudent());
-            //DisplayOutput(studentList);
+            studentList.Add(GetStudent());
+            DisplayOutput(studentList);
 
             List<Student> studentList2 = new List<Student>();
             string path = Path.Combine(Environment.CurrentDirectory, @"Data\Students.csv"); //set the path to csv file
@@ -86,6 +95,21 @@ namespace Practical2
                 }
             }
             DisplayOutput(studentList2);
+
+            List<SalesEmployee> employeeList = new List<SalesEmployee>();
+            SalesEmployee e1 = new SalesEmployee(101, "Angie", 1200, 15000);
+            SalesEmployee e2 = new SalesEmployee(105, "Cindy", 1000, 12000);
+            SalesEmployee e3 = new SalesEmployee(108, "David ", 1500, 20000);
+            SalesEmployee e4 = new SalesEmployee(112, "Jason ", 3000, 30000);
+            SalesEmployee e5 = new SalesEmployee(127, "Vivian ", 2000, 25000);
+
+            employeeList.Add(e1);
+            employeeList.Add(e2);
+            employeeList.Add(e3);
+            employeeList.Add(e4);
+            employeeList.Add(e5);
+            DisplayOutputSales(employeeList);
+
 
             Console.Read();
         }
