@@ -1,0 +1,6 @@
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\week2\Practical2\Practical2\bin\Debug\Practical2.exe.config
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\week2\Practical2\Practical2\bin\Debug\Practical2.exe
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\week2\Practical2\Practical2\bin\Debug\Practical2.pdb
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\week2\Practical2\Practical2\obj\Debug\Practical2.csprojAssemblyReference.cache
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\week2\Practical2\Practical2\obj\Debug\Practical2.exe
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\week2\Practical2\Practical2\obj\Debug\Practical2.pdb
