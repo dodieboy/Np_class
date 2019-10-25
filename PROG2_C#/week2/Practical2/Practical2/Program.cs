@@ -18,18 +18,18 @@ namespace Practical2
         public static void DisplayOutput(List<Student> aList)
         {
             Console.WriteLine("{0, -3} {1, -16} {2, -10} {3, -14}", "ID", "Name", "Phone", "Date of Birth"); //display title
-            for (int i = 0; i < aList.Count; i++) //loop thought the list
+            foreach (Student s in aList) //loop thought the list
             {
-                Console.WriteLine("{0, -3} {1, -16} {2, -10} {3, -14}", aList[i].Id, aList[i].Name, aList[i].Phone, aList[i].DateOfBirth.ToString("dd/MM/yyyy")); //formant and print the data in the list
+                Console.WriteLine("{0, -3} {1, -16} {2, -10} {3, -14}", s.Id, s.Name, s.Phone, s.DateOfBirth.ToString("dd/MM/yyyy")); //formant and print the data in the list
             }
             Console.WriteLine();
         }
-        public static void DisplayOutputSales(List<SalesEmployee> eList)
+        public static void DisplayOutputSales(List<SalesEmployee> aList)
         {
             Console.WriteLine("{0, -3} {1, -16} {2, -13} {3, -6}", "ID", "Name", "Basic Salary", "Sales"); //display title
-            for (int i = 0; i < eList.Count; i++) //loop thought the list
+            foreach (SalesEmployee s in aList) //loop thought the list
             {
-                Console.WriteLine("{0, -3} {1, -16} {2, -13} {3, -6}", eList[i].Id, eList[i].Name, eList[i].BasicSalary, eList[i].Sales); //formant and print the data in the list
+                Console.WriteLine("{0, -3} {1, -16} {2, -13} {3, -6}", s.Id, s.Name, s.BasicSalary, s.Sales); //formant and print the data in the list
             }
             Console.WriteLine();
         }
