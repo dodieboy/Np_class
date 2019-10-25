@@ -109,11 +109,7 @@ namespace Practical2
                 foreach (var line in File.ReadLines(path))
                 {
                     string[] temp = line.Split(',');
-                    if (temp[0] == "ID") //remove the type in csv file
-                    {
-                        continue;
-                    }
-                    else //add the data from csv file to "studentList2" list
+                    if (temp[0] != "ID") //add the data from csv file to "studentList2" list without adding the title
                     {
                         Student studentInput = new Student(int.Parse(temp[0]), temp[1], temp[2], Convert.ToDateTime(temp[3]));
                         studentList2.Add(studentInput);
