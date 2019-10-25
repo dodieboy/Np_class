@@ -1,3 +1,12 @@
+''' 
+THIS IS NOT PART OF THE CODE
+============================================================================
+SPDX-Short-Identifier: MIT
+(c) 2019 Alan Tan
+This code is licensed under MIT license (See LICENSE.txt for details)
+============================================================================
+'''
+
 import os, re, copy, time
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 maze_list=[]
