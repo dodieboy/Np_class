@@ -17,24 +17,25 @@ namespace Practical2
     {
         public static void DisplayOutput(List<Student> aList)
         {
-            Console.WriteLine("{0, -3} {1, -16} {2, -10} {3, -14}", "ID", "Name", "Phone", "Date of Birth");
-            for (int i = 0; i < aList.Count; i++)
+            Console.WriteLine("{0, -3} {1, -16} {2, -10} {3, -14}", "ID", "Name", "Phone", "Date of Birth"); //display title
+            for (int i = 0; i < aList.Count; i++) //loop thought the list
             {
-                Console.WriteLine("{0, -3} {1, -16} {2, -10} {3, -14}", aList[i].Id, aList[i].Name, aList[i].Phone, aList[i].DateOfBirth.ToString("dd/MM/yyyy"));
+                Console.WriteLine("{0, -3} {1, -16} {2, -10} {3, -14}", aList[i].Id, aList[i].Name, aList[i].Phone, aList[i].DateOfBirth.ToString("dd/MM/yyyy")); //formant and print the data in the list
             }
             Console.WriteLine();
         }
         public static void DisplayOutputSales(List<SalesEmployee> eList)
         {
-            Console.WriteLine("{0, -3} {1, -16} {2, -13} {3, -6}", "ID", "Name", "Basic Salary", "Sales");
-            for (int i = 0; i < eList.Count; i++)
+            Console.WriteLine("{0, -3} {1, -16} {2, -13} {3, -6}", "ID", "Name", "Basic Salary", "Sales"); //display title
+            for (int i = 0; i < eList.Count; i++) //loop thought the list
             {
-                Console.WriteLine("{0, -3} {1, -16} {2, -13} {3, -6}", eList[i].Id, eList[i].Name, eList[i].BasicSalary, eList[i].Sales);
+                Console.WriteLine("{0, -3} {1, -16} {2, -13} {3, -6}", eList[i].Id, eList[i].Name, eList[i].BasicSalary, eList[i].Sales); //formant and print the data in the list
             }
             Console.WriteLine();
         }
-        public static Student GetStudent()
+        public static Student GetStudent() //method to formant input to match student.cs
         {
+            //ask for data and convert to corrent type
             Console.WriteLine("Please enter the student ID: ");
             int StudentID = int.Parse(Console.ReadLine());
             Console.WriteLine("Please enter the student name: ");
@@ -45,7 +46,7 @@ namespace Practical2
             DateTime StudentDOB = Convert.ToDateTime(Console.ReadLine());
 
             Student NewStudent = new Student(StudentID, StudentName, StudentPhone, StudentDOB);
-            return NewStudent;
+            return NewStudent; //return formanted data
         }
         static void Main(string[] args)
         {
@@ -70,7 +71,7 @@ namespace Practical2
             Console.WriteLine("{0, -3} {1, -16} {2, -10} {3, -14}\n", s5.Id, s5.Name, s5.Phone, s5.DateOfBirth.ToString("dd/MM/yyyy"));
 
             //Add Student object to List
-            List<Student> studentList = new List<Student>();
+            List<Student> studentList = new List<Student>(); //create "studentList" list
             studentList.Add(s1);
             studentList.Add(s2);
             studentList.Add(s3);
@@ -84,25 +85,28 @@ namespace Practical2
             studentList.Add(GetStudent());
             DisplayOutput(studentList);
 
-            List<Student> studentList2 = new List<Student>();
+            List<Student> studentList2 = new List<Student>(); //create "studentList2" list
             string path = Path.Combine(Environment.CurrentDirectory, @"Data\Students.csv"); //set the path to csv file
 
             foreach (var line in File.ReadLines(path))
             {
                 string[] temp = line.Split(',');
-                if (temp[0] == "ID")
+                if (temp[0] == "ID") //remove the type in csv file
                 {
                     continue;
                 }
-                else
+                else //add the data from csv file to "studentList2" list
                 {
                     Student studentInput = new Student(int.Parse(temp[0]), temp[1], temp[2], Convert.ToDateTime(temp[3]));
                     studentList2.Add(studentInput);
                 }
             }
-            DisplayOutput(studentList2);
+            DisplayOutput(studentList2); //run DisplayOutput method and pass studentList2 to method
 
-            List<SalesEmployee> employeeList = new List<SalesEmployee>();
+
+            //challenge
+            List<SalesEmployee> employeeList = new List<SalesEmployee>(); //create "employeeList" list
+            //add data to "employeeList" list
             SalesEmployee e1 = new SalesEmployee(101, "Angie", 1200, 15000);
             SalesEmployee e2 = new SalesEmployee(105, "Cindy", 1000, 12000);
             SalesEmployee e3 = new SalesEmployee(108, "David ", 1500, 20000);
@@ -114,7 +118,8 @@ namespace Practical2
             employeeList.Add(e3);
             employeeList.Add(e4);
             employeeList.Add(e5);
-            DisplayOutputSales(employeeList);
+
+            DisplayOutputSales(employeeList); //run DisplayOutput method and pass employeeList to method
 
 
             Console.Read();
