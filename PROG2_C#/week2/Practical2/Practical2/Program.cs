@@ -35,18 +35,34 @@ namespace Practical2
         }
         public static Student GetStudent() //method to formant input to match student.cs
         {
-            //ask for data and convert to corrent type
-            Console.WriteLine("Please enter the student ID: ");
-            int StudentID = int.Parse(Console.ReadLine());
-            Console.WriteLine("Please enter the student name: ");
-            string StudentName = Console.ReadLine();
-            Console.WriteLine("Please enter the student phone number: ");
-            string StudentPhone = Console.ReadLine();
-            Console.WriteLine("Please enter the student date of birth (yyyy/mm/dd): ");
-            DateTime StudentDOB = Convert.ToDateTime(Console.ReadLine());
+            //declare var use
+            bool error = true;
+            int StudentID = 0;
+            string StudentName = "";
+            string StudentPhone = "";
+            DateTime StudentDOB = DateTime.Now;
 
-            Student NewStudent = new Student(StudentID, StudentName, StudentPhone, StudentDOB);
-            return NewStudent; //return formanted data
+            while (error)
+            {
+                try
+                {
+                    //ask for data and convert to corrent type
+                    Console.WriteLine("Please enter the student ID: ");
+                    StudentID = int.Parse(Console.ReadLine());
+                    Console.WriteLine("Please enter the student name: ");
+                    StudentName = Console.ReadLine();
+                    Console.WriteLine("Please enter the student phone number: ");
+                    StudentPhone = Console.ReadLine();
+                    Console.WriteLine("Please enter the student date of birth (yyyy/mm/dd): ");
+                    StudentDOB = Convert.ToDateTime(Console.ReadLine());
+                    error = false; //end the loop since there is no error
+                }
+                catch (FormatException)
+                {
+                    Console.WriteLine("ERROR: You have enter a invaild input, please try again");
+                }
+            }
+            return new Student(StudentID, StudentName, StudentPhone, StudentDOB); //return formanted data
         }
         static void Main(string[] args)
         {
@@ -86,41 +102,40 @@ namespace Practical2
             DisplayOutput(studentList);
 
             List<Student> studentList2 = new List<Student>(); //create "studentList2" list
-            string path = Path.Combine(Environment.CurrentDirectory, @"Data\Students.csv"); //set the path to csv file
-
-            foreach (var line in File.ReadLines(path))
+            string fileName = "Students.csv";
+            string path = Path.Combine(Environment.CurrentDirectory, @"Data\" + fileName); //set the path to csv file
+            try
             {
-                string[] temp = line.Split(',');
-                if (temp[0] == "ID") //remove the type in csv file
+                foreach (var line in File.ReadLines(path))
                 {
-                    continue;
+                    string[] temp = line.Split(',');
+                    if (temp[0] == "ID") //remove the type in csv file
+                    {
+                        continue;
+                    }
+                    else //add the data from csv file to "studentList2" list
+                    {
+                        Student studentInput = new Student(int.Parse(temp[0]), temp[1], temp[2], Convert.ToDateTime(temp[3]));
+                        studentList2.Add(studentInput);
+                    }
                 }
-                else //add the data from csv file to "studentList2" list
-                {
-                    Student studentInput = new Student(int.Parse(temp[0]), temp[1], temp[2], Convert.ToDateTime(temp[3]));
-                    studentList2.Add(studentInput);
-                }
+                DisplayOutput(studentList2); //run DisplayOutput method and pass studentList2 to method
             }
-            DisplayOutput(studentList2); //run DisplayOutput method and pass studentList2 to method
-
+            catch (System.IO.FileNotFoundException)
+            {
+                Console.WriteLine("ERROR: CSV file ({0}) is not found ", fileName);
+            }
 
             //challenge
             List<SalesEmployee> employeeList = new List<SalesEmployee>(); //create "employeeList" list
             //add data to "employeeList" list
-            SalesEmployee e1 = new SalesEmployee(101, "Angie", 1200, 15000);
-            SalesEmployee e2 = new SalesEmployee(105, "Cindy", 1000, 12000);
-            SalesEmployee e3 = new SalesEmployee(108, "David ", 1500, 20000);
-            SalesEmployee e4 = new SalesEmployee(112, "Jason ", 3000, 30000);
-            SalesEmployee e5 = new SalesEmployee(127, "Vivian ", 2000, 25000);
-
-            employeeList.Add(e1);
-            employeeList.Add(e2);
-            employeeList.Add(e3);
-            employeeList.Add(e4);
-            employeeList.Add(e5);
+            employeeList.Add(new SalesEmployee(101, "Angie", 1200, 15000));
+            employeeList.Add(new SalesEmployee(105, "Cindy", 1000, 12000));
+            employeeList.Add(new SalesEmployee(108, "David ", 1500, 20000));
+            employeeList.Add(new SalesEmployee(112, "Jason ", 3000, 30000));
+            employeeList.Add(new SalesEmployee(127, "Vivian ", 2000, 25000));
 
             DisplayOutputSales(employeeList); //run DisplayOutput method and pass employeeList to method
-
 
             Console.Read();
         }
