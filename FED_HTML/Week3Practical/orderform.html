@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Tan Jia Shun" />
+    <meta name="description" content="week3: Pizza Order Form" />
+    <link rel="icon" type="image/x-icon" href="media/HTMLBadge.ico" />
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Pizza Order Form</title>
+</head>
+
+<body>
+    <form>
+        <h1>Pizza Order Form</h1>
+        <label>Pizza Type: </label>
+        <select name="type">
+            <option value="" disabled selected hidden>Please select...</option>
+            <option value="Alpoha Chicken">Alpoha Chicken</option>
+            <option value="Beef Pepperoni">Beef Pepperoni</option>
+            <option value="Chicken Delight">Chicken Delight</option>
+            <option value="Deluxe Cheese">Deluxe Cheese</option>
+        </select>
+        <label>Quantity: </label>
+        <input type="number" min="1" max="4" />
+        <fieldset>
+            <legend>Size:</legend>
+            <input type="radio" name="Size" value="small">Small
+            <input type="radio" name="Size" value="medium">Medium
+            <input type="radio" name="Size" value="large">Large
+        </fieldset>
+        <fieldset>
+            <legend>Crust:</legend>
+            <input type="radio" name="Crust" value="thin">Thin
+            <input type="radio" name="Crust" value="thick">Thick
+            <input type="radio" name="Crust" value="deep dish">Deep Dish
+        </fieldset>
+
+        <fieldset>
+            <legend>Toppings:</legend>
+            <input type="checkbox" name="Toppings" value="mushroom">Mushroom
+            <input type="checkbox" name="Toppings" value="sausage">Sausage
+            <input type="checkbox" name="Toppings" value="olives">Olives
+        </fieldset>
+
+        <label style="margin-top: 15px;">Addons:</label>
+        <select name="addon">
+                <option value="" disabled selected hidden>Please select addons is required</option>
+            <option value="Side of Buffalo Wings">Side of Buffalo Wings</option>
+            <option value="Garlic Bread">Garlic Bread</option>
+        </select>
+
+        <fieldset>
+            <legend>Deliver to:</legend>
+            <label>Name:</label>
+            <input type="text"><br/>
+            <label>Address:</label>
+            <textarea row="3" cols="30"></textarea>
+            <label>Postal Code:</label>
+            <input type="text" pattern="[0-9]{6}">
+            <label>Phone #:</label>
+            <input type="text" pattern="[689][0-9]{7}"><br/>
+            <label>Email:</label>
+            <input type="email" placeholder="Enter email address" style="width: 70%;">
+            <label>Date: </label>
+            <input type="date" name="date">
+            <label>Time:</label>
+            <input type="time" name="time">
+        </fieldset>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+
+</html>
