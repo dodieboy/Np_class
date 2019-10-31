@@ -1,0 +1,6 @@
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\CashCardApp\CashCardApp\bin\Debug\CashCardApp.exe.config
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\CashCardApp\CashCardApp\bin\Debug\CashCardApp.exe
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\CashCardApp\CashCardApp\bin\Debug\CashCardApp.pdb
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\CashCardApp\CashCardApp\obj\Debug\CashCardApp.csprojAssemblyReference.cache
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\CashCardApp\CashCardApp\obj\Debug\CashCardApp.exe
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\CashCardApp\CashCardApp\obj\Debug\CashCardApp.pdb
