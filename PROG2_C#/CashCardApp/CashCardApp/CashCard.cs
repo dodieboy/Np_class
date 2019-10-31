@@ -31,7 +31,7 @@ namespace CashCardApp
         }
         public bool Deduct(double b)
         {
-            if(Balance - b < 0)
+            if (Balance - b < 0)
             {
                 return false;
             }
@@ -39,6 +39,10 @@ namespace CashCardApp
             {
                 return true;
             }
+        }
+        public override string ToString()
+        {
+            return "OK";
         }
     }
 }
