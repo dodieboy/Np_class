@@ -28,7 +28,7 @@ namespace FareCalculationApp
         }
         public override string ToString()
         {
-            return "WIP";
+            return String.Format("Max Distance: {0}, Amount: {1}", UpToDistance, Amount);
         }
     }
 }

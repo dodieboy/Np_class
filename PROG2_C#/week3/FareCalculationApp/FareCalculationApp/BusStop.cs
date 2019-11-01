@@ -41,7 +41,7 @@ namespace FareCalculationApp
         }
         public override string ToString()
         {
-            return "WIP";
+            return return String.Format("Distance: {0}, Code: {1}, Road: {2}, Desc: {3}", Distance, Code, Road, Description);
         }
     }
 }

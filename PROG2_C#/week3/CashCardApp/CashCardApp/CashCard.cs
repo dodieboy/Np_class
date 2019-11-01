@@ -42,7 +42,7 @@ namespace CashCardApp
         }
         public override string ToString()
         {
-            return "OK";
+            return String.Format("ID: {0}, Balance: {1}", Id, Balance);
         }
     }
 }

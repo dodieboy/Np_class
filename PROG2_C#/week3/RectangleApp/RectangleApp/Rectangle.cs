@@ -36,7 +36,7 @@ namespace RectangleApp
         }
         public override string ToString()
         {
-            return "test";
+            return String.Format("Height: {0}, Width: {1}", Height, Width);
         }
     }
 }
