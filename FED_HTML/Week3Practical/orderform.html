@@ -60,19 +60,19 @@
         <fieldset>
             <legend>Deliver to:</legend>
             <label>Name:</label>
-            <input type="text"><br/>
+            <input type="text" required><br/>
             <label>Address:</label>
-            <textarea row="3" cols="30"></textarea>
+            <textarea row="3" cols="30" required></textarea>
             <label>Postal Code:</label>
-            <input type="text" pattern="[0-9]{6}">
+            <input type="text" pattern="[0-9]{6}" required>
             <label>Phone #:</label>
-            <input type="text" pattern="[689][0-9]{7}"><br/>
+            <input type="text" pattern="[689][0-9]{7}" required><br/>
             <label>Email:</label>
-            <input type="email" placeholder="Enter email address" style="width: 70%;">
+            <input type="email" placeholder="Enter email address" style="width: 70%;" required>
             <label>Date: </label>
-            <input type="date" name="date">
+            <input type="date" name="date" required>
             <label>Time:</label>
-            <input type="time" name="time">
+            <input type="time" name="time" required>
         </fieldset>
         <button type="submit">Submit</button>
         <button type="reset">Reset</button>
