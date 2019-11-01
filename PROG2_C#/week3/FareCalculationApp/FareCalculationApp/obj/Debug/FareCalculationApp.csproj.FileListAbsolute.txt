@@ -1,0 +1,6 @@
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\week3\FareCalculationApp\FareCalculationApp\bin\Debug\FareCalculationApp.exe.config
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\week3\FareCalculationApp\FareCalculationApp\bin\Debug\FareCalculationApp.exe
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\week3\FareCalculationApp\FareCalculationApp\bin\Debug\FareCalculationApp.pdb
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\week3\FareCalculationApp\FareCalculationApp\obj\Debug\FareCalculationApp.csprojAssemblyReference.cache
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\week3\FareCalculationApp\FareCalculationApp\obj\Debug\FareCalculationApp.exe
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\week3\FareCalculationApp\FareCalculationApp\obj\Debug\FareCalculationApp.pdb
