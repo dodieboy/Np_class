@@ -1,0 +1,6 @@
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\week3\RectangleApp\RectangleApp\obj\Debug\RectangleApp.csprojAssemblyReference.cache
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\week3\RectangleApp\RectangleApp\bin\Debug\RectangleApp.exe.config
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\week3\RectangleApp\RectangleApp\bin\Debug\RectangleApp.exe
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\week3\RectangleApp\RectangleApp\bin\Debug\RectangleApp.pdb
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\week3\RectangleApp\RectangleApp\obj\Debug\RectangleApp.exe
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\week3\RectangleApp\RectangleApp\obj\Debug\RectangleApp.pdb

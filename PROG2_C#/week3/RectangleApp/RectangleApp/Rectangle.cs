@@ -20,10 +20,23 @@ namespace RectangleApp
             get { return height; }
             set { height = value; }
         }
+        public Rectangle() {}
         public Rectangle(double w, double h)
         {
             Height = h;
             Width = w;
+        }
+        public double FindArea()
+        {
+            return 0;
+        }
+        public double FindPerimeter()
+        {
+            return 0;
+        }
+        public override string ToString()
+        {
+            return "test";
         }
     }
 }
