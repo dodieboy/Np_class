@@ -1,0 +1,79 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+h1,
+h2 {
+    font-family: 'Caveat', cursive;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+h2 {
+    font-size: 40px;
+    margin-top: 0;
+}
+
+a {
+    color: #EF233C;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: auto;
+}
+
+header,
+footer {
+    background: #2B2D42;
+    color: #8D99AE;
+}
+
+header h1,
+header h2 {
+    color: #EDF2F4;
+    margin: 0;
+}
+
+footer {
+    text-align: center;
+}
+
+.profile-img {
+    border-radius: 50%;
+}
+
+.col-wide {
+    width: 69%;
+    float: left;
+    padding-left: 1%;
+    min-height: 175px;
+}
+
+.col-narrow {
+    width: 30%;
+    float: left;
+    min-height: 175px;
+}
+
+.contect-info {
+    margin: 10px;
+    display: inline-block;
+}
+
+.work {
+    background: #EDF2F4;
+}
+
+.education {
+    background: #8D99AE;
+}
