@@ -9,7 +9,7 @@ namespace MyBankApp
 {
     class Program
     {
-        static int menu()
+        static int Menu()
         {
             Console.Write("Menu\n[1] Display all accounts\n[2] Deposit\n[3] Withdraw\n[0] Exit\n[4] Display all accounts with interest\nEnter option: ");
             int option = Convert.ToInt32(Console.ReadLine());
@@ -52,7 +52,7 @@ namespace MyBankApp
             }
 
             while(true) {
-                int option = menu();
+                int option = Menu();
                 if (option == 0)
                 {
                     break;

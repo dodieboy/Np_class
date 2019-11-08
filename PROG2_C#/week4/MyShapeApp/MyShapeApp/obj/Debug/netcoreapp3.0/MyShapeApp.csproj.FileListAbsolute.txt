@@ -1,0 +1,11 @@
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\week4\MyShapeApp\MyShapeApp\bin\Debug\netcoreapp3.0\MyShapeApp.exe
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\week4\MyShapeApp\MyShapeApp\bin\Debug\netcoreapp3.0\MyShapeApp.deps.json
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\week4\MyShapeApp\MyShapeApp\bin\Debug\netcoreapp3.0\MyShapeApp.runtimeconfig.json
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\week4\MyShapeApp\MyShapeApp\bin\Debug\netcoreapp3.0\MyShapeApp.runtimeconfig.dev.json
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\week4\MyShapeApp\MyShapeApp\bin\Debug\netcoreapp3.0\MyShapeApp.dll
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\week4\MyShapeApp\MyShapeApp\bin\Debug\netcoreapp3.0\MyShapeApp.pdb
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\week4\MyShapeApp\MyShapeApp\obj\Debug\netcoreapp3.0\MyShapeApp.csprojAssemblyReference.cache
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\week4\MyShapeApp\MyShapeApp\obj\Debug\netcoreapp3.0\MyShapeApp.AssemblyInfoInputs.cache
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\week4\MyShapeApp\MyShapeApp\obj\Debug\netcoreapp3.0\MyShapeApp.AssemblyInfo.cs
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\week4\MyShapeApp\MyShapeApp\obj\Debug\netcoreapp3.0\MyShapeApp.dll
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\week4\MyShapeApp\MyShapeApp\obj\Debug\netcoreapp3.0\MyShapeApp.pdb
