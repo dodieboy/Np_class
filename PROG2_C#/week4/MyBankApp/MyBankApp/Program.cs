@@ -19,7 +19,7 @@ namespace MyBankApp
         {
             foreach (SavingAccount s in sList)
             {
-                Console.WriteLine("Acc No: {0} Acc Name: {1} Balance: {2} Rate: {3}", s.AccNo, s.AccName, s.Balance, s.Rate);
+                Console.WriteLine("Acc No: {0} Acc Name: {1} Balance: ${2} Rate: {3}%", s.AccNo, s.AccName, s.Balance, s.Rate);
             }
             Console.WriteLine();
         }
@@ -27,7 +27,7 @@ namespace MyBankApp
         {
             foreach (SavingAccount s in sList)
             {
-                Console.WriteLine("Acc No: {0} Acc Name: {1} Balance: {2} Rate: {3} Interest {4}", s.AccNo, s.AccName, s.Balance, s.Rate, s.CalculateInterest());
+                Console.WriteLine("Acc No: {0} Acc Name: {1} Balance: ${2} Rate: {3}% Interest: ${4}", s.AccNo, s.AccName, s.Balance, s.Rate, s.CalculateInterest());
             }
             Console.WriteLine();
         }
