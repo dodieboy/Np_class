@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Tan Jia Shun" />
+    <meta name="description" content="Cyber Awareness Camp" />
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Cyber Awareness Camp</title>
+</head>
+
+<body>
+    <form>
+        <h2>Cyber Awareness Camp Registration Form</h2>
+        <label>Course</label>
+        <select name="Course" required>
+            <option value="FI">FI</option>
+            <option value="IMGD">IMDG</option>
+            <option value="CSF">CSF</option>
+            <option value="IT">IT</option>
+        </select><br/>
+        <label>Year</label>
+        <input type="radio" name="Year" value="Year 1" required>Year 1
+        <input type="radio" name="Year" value="Year 2">Year 2
+        <input type="radio" name="Year" value="Year 3">Year 3<br/>
+        <label>Name</label>
+        <input type="text" placeholder="Enter your name" required><br/>
+        <label>Email address</label>
+        <input type="email" placeholder="Enter your email address" required><br/>
+        <label>Student number</label>
+        <input type="text" placeholder="Enter your student number" pattern="S[0-9]{8}" required><br/>
+        <label>Activities Attending</label>
+        <input type="checkbox" value="Day 1" required>Day 1
+        <input type="checkbox" value="Day 2">Day 2
+        <input type="checkbox" value="Day 3">Day 3<br/>
+        <label>Remarks</label>
+        <textarea rows="3" placeholder="Meals will be provided" required></textarea><br/>
+        <button type="submit">Submit</button>
+        <button type="reset">Rest</button>
+    </form>
+    <footer class="footerReg">
+        Developed by Tan Jia Shun
+    </footer>
+</body>
+
+</html>
