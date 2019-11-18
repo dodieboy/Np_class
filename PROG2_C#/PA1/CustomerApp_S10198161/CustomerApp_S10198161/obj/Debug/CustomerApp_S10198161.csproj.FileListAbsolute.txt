@@ -1,0 +1,8 @@
+C:\Users\Alan\Desktop\CustomerApp_S10198161\CustomerApp_S10198161\bin\Debug\Program.cs
+C:\Users\Alan\Desktop\CustomerApp_S10198161\CustomerApp_S10198161\bin\Debug\CustomerApp_S10198161.exe.config
+C:\Users\Alan\Desktop\CustomerApp_S10198161\CustomerApp_S10198161\bin\Debug\CustomerApp_S10198161.exe
+C:\Users\Alan\Desktop\CustomerApp_S10198161\CustomerApp_S10198161\bin\Debug\CustomerApp_S10198161.pdb
+C:\Users\Alan\Desktop\CustomerApp_S10198161\CustomerApp_S10198161\obj\Debug\CustomerApp_S10198161.csprojAssemblyReference.cache
+C:\Users\Alan\Desktop\CustomerApp_S10198161\CustomerApp_S10198161\obj\Debug\CustomerApp_S10198161.exe
+C:\Users\Alan\Desktop\CustomerApp_S10198161\CustomerApp_S10198161\obj\Debug\CustomerApp_S10198161.pdb
+C:\Users\Alan\Desktop\CustomerApp_S10198161\CustomerApp_S10198161\bin\Debug\loans.csv
