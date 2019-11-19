@@ -1,0 +1,128 @@
+﻿@charset "UTF-8";
+
+/* Set the box-sizing model to border-box for all the elements in the document */
+
+html {
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: Verdana, Arial, serif;
+    font-size: 100%;
+    background-color: white;
+}
+
+
+/* header styles */
+
+header {
+    font-family: Verdana, Arial, serif;
+    color: white;
+    background: url("../images/croissants_banner.jpg") no-repeat center center;
+    background-size: cover;
+    text-align: center;
+}
+
+header p {
+    font-style: italic;
+    padding-bottom: 0.8em;
+    margin-top: -12px;
+}
+
+header h1 {
+    padding: 0.8em 1em;
+    font-size: 1em;
+    margin-top: 1.5em;
+}
+
+
+/* main "products" styles */
+
+main {
+    font-family: 'Stint Ultra Expanded', Georgia, serif;
+    font-size: 1em;
+    color: #555;
+    line-height: 1.8em;
+    margin-top: 1em;
+    padding: 1em;
+    border: double 4px #EADDC4;
+    border-radius: 25px;
+    margin: 2.5%;
+}
+
+main img {
+    float: left;
+    margin: 0 1em 1em 0;
+}
+
+img[src*="muffin"] {
+    margin-left: 50px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    color: #7A0002;
+    margin-top: 1.5em;
+    border-top: 1px solid;
+    border-left: 3px solid;
+    padding-left: 1em;
+    margin-top: 2.5em;
+}
+
+p.more {
+    font-family: verdana, sans-serif;
+    text-transform: uppercase;
+    font-size: .8em;
+    clear: left;
+}
+
+
+/* aside "hours" styles */
+
+aside {
+    background: url("../images/scallop.png") repeat-y left top;
+    background-color: #F6F3ED;
+    margin-top: 1em;
+    height: 100%;
+    padding: 1em;
+    padding-left: 45px;
+    border-top-right-radius: 25px;
+}
+
+
+/* footer styles */
+
+footer {
+    color: #EADDC4;
+    text-align: center;
+    font-size: .8em;
+    font-family: verdana, sans-serif;
+    background-color: #783F27;
+    padding: 1em;
+}
+
+
+/* misc styles */
+
+h2 {
+    font-family: 'Stint Ultra Expanded', Georgia, serif;
+}
+
+.day {
+    color: #783F27;
+    font-family: verdana, sans-serif;
+    font-size: .8em;
+    text-transform: uppercase;
+}
