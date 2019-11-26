@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <title>Black Goose Bakery</title>
+        <meta charset="UTF-8" />
+        <!-- Add the responsive viewport meta tag -->
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!-- Reference to Bootstrap libraries -->
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <!-- CSS that supports Stint Ultra Expanded Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Stint+Ultra+Expanded" rel="stylesheet" />
+        <!-- Site specific Cascading Stylesheet -->
+        <link rel="stylesheet" href="css/bakery-styles.css" />
+        <!-- To Do: Reference to the JavaScript library for including a HTML page -->
+        <script src="https://www.w3schools.com/lib/w3.js"></script>
+    </head>
+
+    <body>
+        <!-- Create a full width Bootstrap container-->
+        <div class="container-fluid">
+            <!-- Bootstrap Grid 1st row - Header -->
+            <div class="row">
+                <!-- Bootstrap Grid column, full width -->
+                <div class="col-sm-12">
+                    <!-- To Do: Include the header section -->
+                    <div w3-include-html="header.html"></div>
+                </div>
+            </div>
+
+            <!-- Bootstrap Grid 2nd row - Content Section -->
+            <div class="row">
+                <!-- Left column - Main content (67% width) -->
+                <div class="col-sm-8">
+                    <main>
+                        <h2>Fresh from the Oven</h2>
+                        <h3>Breads</h3>
+                        <!-- Use Bootstrap CSS class to make image responsive to screen size -->
+                        <p><img class="img-fluid" src="images/bread.png" alt="round loaf of bread on cutting board" /> Our breads are made daily from highest-quality whole grain flour, water, salt, and yeast or sourdough starter. Simply and naturally, and never any preservatives. Patience is key to achieving the proper level of fermentation and baking each loaf to perfection. Available in whole grain, sourdough, olive loaf, classic rye, and potato-onion.</p>
+                        <p class="more"><a href="">Learn more about our baking process...</a></p>
+
+                        <h3>Muffins</h3>
+                        <!-- Use Bootstrap CSS class to make image responsive to screen size -->
+                        <p><img class="img-fluid" src="images/muffin.png" alt="one chocolate chip muffin" /> Every day, we offer a large selection of muffins, including blueberry, multi-berry, bran, corn, lemon-poppyseed, and chocolate. Our muffins are made from scratch each day. Stop by to see our seasonal muffin flavors!</p>
+                        <p class="more"><a href="">Learn more about how we make our muffins...</a></p>
+                    </main>
+                </div>
+                <!-- Right column - Side bar (33% width) -->
+                <div class="col-sm-4">
+                    <aside>
+                        <h2>Hours</h2>
+                        <p><span class="day">Monday:</span> 5am to 3pm</p>
+                        <p><span class="day">Tuesday:</span> 5am to 3pm</p>
+                        <p><span class="day">Wednesday:</span> 5am to 3pm</p>
+                        <p><span class="day">Thursday:</span> 5am to 3pm</p>
+                        <p><span class="day">Friday:</span> 5am to 3pm</p>
+                        <p><span class="day">Saturday:</span> 6am to 4pm</p>
+                        <p><span class="day">Sunday:</span> 6am to 4pm</p>
+                    </aside>
+                </div>
+            </div>
+
+            <!-- Bootstrap Grid 3rd row - Footer -->
+            <div class="row">
+                <!-- Bootstrap Grid column, full width -->
+                <div class="col-sm-12">
+                    <!-- To Do: Include the footer section -->
+                    <div w3-include-html="footer.html"></div>
+                </div>
+            </div>
+            <!-- End of Bootstrap container div -->
+        </div>
+
+        <!-- To Do: Call the includeHTML() function when loading the page -->
+        <script>
+            w3.includeHTML();
+        </script>
+    </body>
+</html>

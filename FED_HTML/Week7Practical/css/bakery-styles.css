@@ -1,0 +1,82 @@
+﻿@charset "UTF-8";
+
+/* Set the box-sizing model to border-box for all the elements in the document */
+html {
+    box-sizing: border-box;
+}
+* {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: Verdana, Arial, serif;
+    font-size: 100%;
+    background-color: white;
+    margin: 0;
+}
+
+/* main "products" styles */
+main {
+    font-family: 'Stint Ultra Expanded', Georgia, serif;
+    font-size: 1em;
+    color: #555;
+    line-height: 1.8em;
+    padding: 1em;
+    border: double 4px #EADDC4;
+    border-radius: 25px;
+    margin-top: 1em;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    color: #7A0002;
+    border-top: 1px solid;
+    border-left: 3px solid;
+    padding-left: 1em;
+    margin-top: 1.5em;
+}
+
+p.more {
+  font-family: verdana, sans-serif;
+  text-transform: uppercase; 
+  font-size: .8em;
+  clear: left;
+}
+
+main img {
+  float: left;
+  margin: 0 1em 1em 0;
+}
+
+img[src*="muffin"] {
+    margin-left: 50px;
+}
+
+/* aside "hours" styles */
+aside {
+    background: url("../images/scallop.png") repeat-y left top;
+    background-color: #F6F3ED;
+    padding: 1em;
+    padding-left: 45px;
+    margin-top: 1em;
+    height: 100%;
+}
+
+/* misc styles */
+h2 {
+  font-family: 'Stint Ultra Expanded', Georgia, serif;
+}
+.day {
+  color: #783F27;
+  font-family: verdana, sans-serif;
+  font-size: .8em;
+  text-transform: uppercase;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flexbox Product Listing Exercise</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!-- Bootstrap minified CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <!-- jQuery library -->
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <!-- Bootstrap JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
+        <!-- Site specific Cascading Stylesheet -->
+        <link rel="stylesheet" href="css/flex-menu-styles.css" />
+        <!-- To Do: Reference to the JavaScript library for including a HTML page -->
+        <script src="https://www.w3schools.com/lib/w3.js"></script>
+    </head>
+
+    <body>
+        <div class="container-fluid">
+            <!-- To Do: Include the header section -->
+            <div w3-include-html="header.html"></div>
+            <!-- Content Section -->
+            <div id="menu">
+                <section class="title">
+                    <h1>Bistro Items To Go</h1>
+                </section>
+
+                <section class="dish">
+                    <h2>1<br />Black bean purses</h2>
+                    <p class="info">Spicy black bean and a blend of Mexican cheeses wrapped in sheets of phyllo and baked until golden.</p>
+                    <p class="photo"><img src="images/table.jpg" alt="" /></p>
+                    <p class="price">$3.95</p>
+                </section>
+
+                <section class="dish">
+                    <h2>2<br />Southwestern Napoleons</h2>
+                    <p class="info">Layers of light lump crab meat, bean, and corn salsa, and our handmade flour tortillas.</p>
+                    <p class="photo"><img src="images/table.jpg" alt="" /></p>
+                    <p class="price">$7.95</p>
+                </section>
+
+                <section class="dish">
+                    <h2>3<br />Coconut-Corn Chowder</h2>
+                    <p class="info">This vegan chowder with potatoes and corn in a coconut broth is light and delicious.</p>
+                    <p class="photo"><img src="images/table.jpg" alt="" /></p>
+                    <p class="price">$3.95</p>
+                </section>
+
+                <section class="dish">
+                    <h2>4<br />Jerk Rotisserie Chicken</h2>
+                    <p class="info">Tender chicken slow roasted on the rotisserie, flavored with spicy and fragrant jerk sauce and served with fried plantains and sliced mango. <em>Warning, very spicy!</em></p>
+                    <p class="photo"><img src="images/table.jpg" alt="" /></p>
+                    <p class="price">$12.95</p>
+                </section>
+
+                <section class="dish">
+                    <h2>5<br />Thai Shrimp Kebabs</h2>
+                    <p class="info">Skewers of shrimp marinated in lemongrass, garlic, and fish sauce then grilled to perfection.</p>
+                    <p class="photo"><img src="images/table.jpg" alt="" /></p>
+                    <p class="price">$12.95</p>
+                </section>
+
+                <section class="dish">
+                    <h2>6<br />Pasta Puttanesca</h2>
+                    <p class="info">A rich tomato sauce simmered with garlic, olives, capers, anchovies, and plenty of hot red pepper flakes.</p>
+                    <p class="photo"><img src="images/table.jpg" width="200" height="100" alt="" /></p>
+                    <p class="price">$12.95</p>
+                </section>
+            </div>
+
+            <!-- To Do: Include the footer section -->
+            <div w3-include-html="footer.html"></div>
+        </div>
+        <!-- end #container div -->
+
+        <!-- To Do: Call the includeHTML() function when loading the page -->
+        <script>
+            w3.includeHTML();
+        </script>
+    </body>
+</html>
