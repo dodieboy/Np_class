@@ -88,7 +88,7 @@ namespace ShapeApp
             Console.Write("Circle radius: ");
             int radius = Convert.ToInt32(Console.ReadLine());
             cList.Add(new Circle(color, radius));
-            Console.WriteLine("New black circle with radius 15cm added.");
+            Console.WriteLine("New black circle with radius {0} added.", radius);
         }
         static void CircleDelete(List<Circle> cList)
         {
@@ -131,6 +131,10 @@ namespace ShapeApp
                 {
                     circleList.Sort();
                     DispalyCircle(circleList);
+                }
+                else if(inputs == 0)
+                {
+                    exit();
                 }
             }
         }
