@@ -28,6 +28,7 @@ img {
     height: 150px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
     transition: transform 0.3s linear;
+    -webkit-transition: -webkit-transform 0.3s linear;
 }
 
 a:hover #img1,
