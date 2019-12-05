@@ -1,0 +1,75 @@
+<!--
+    Copyright (c) 2019 Alan Tan
+    This document is licensed under MIT license (See LICENSE for details)
+    SPDX-Short-Identifier: MIT
+-->
+
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="author" content="Tan Jia Shun" />
+        <meta name="description" content="week3: Pizza Order Form" />
+        <link rel="icon" type="image/x-icon" href="media/HTMLBadge.ico" />
+        <link rel="stylesheet" href="styles.css" />
+        <title>Pizza Order Form</title>
+    </head>
+
+    <body>
+        <form>
+            <h1>Pizza Order Form</h1>
+            <label>Pizza Type: </label>
+            <select name="type" id="type">
+                <option value="" disabled selected hidden>Please select...</option>
+                <option value="Alpoha Chicken">Alpoha Chicken</option>
+                <option value="Beef Pepperoni">Beef Pepperoni</option>
+                <option value="Chicken Delight">Chicken Delight</option>
+                <option value="Deluxe Cheese">Deluxe Cheese</option>
+            </select>
+            <label>Quantity: </label>
+            <input type="number" min="1" max="4" id="quantity" />
+            <fieldset>
+                <legend>Size:</legend>
+                <input type="radio" name="Size" onclick="sizeChange(this);" value="small" />Small <input type="radio" name="Size" onclick="sizeChange(this);" value="medium" />Medium <input type="radio" name="Size" onclick="sizeChange(this);" value="large" />Large
+            </fieldset>
+            <fieldset>
+                <legend>Crust:</legend>
+                <input type="radio" name="Crust" value="thin" />Thin <input type="radio" name="Crust" value="thick" />Thick <input type="radio" name="Crust" value="deep dish" />Deep Dish
+            </fieldset>
+
+            <fieldset>
+                <legend>Toppings:</legend>
+                <input type="checkbox" name="Toppings" onclick="toppingChange(this);" id="topping" value="mushroom" />Mushroom <input type="checkbox" name="Toppings" onclick="toppingChange(this);" id="topping" value="sausage" />Sausage <input type="checkbox" name="Toppings" onclick="toppingChange(this);" id="topping" value="olives" />Olives
+            </fieldset>
+
+            <label style="margin-top: 15px;">Addons:</label>
+            <select name="addon" multiple id="addon">
+                <option id="addons" value="Buffalo Wings">Buffalo Wings</option>
+                <option id="addons" value="Garlic Bread">Garlic Bread</option>
+            </select>
+            <p id="outputs">Total price for your order is $0</p>
+
+            <fieldset>
+                <legend>Deliver to:</legend>
+                <label>Name:</label>
+                <input type="text" required /><br />
+                <label>Address:</label>
+                <textarea row="3" cols="30" required></textarea>
+                <label>Postal Code:</label>
+                <input type="text" pattern="[0-9]{6}" required />
+                <label>Phone #:</label>
+                <input type="text" pattern="[689][0-9]{7}" required /><br />
+                <label>Email:</label>
+                <input type="email" placeholder="Enter email address" style="width: 70%;" required />
+                <label>Date: </label>
+                <input type="date" name="date" id="date" min="1899-01-01" max="2100-13-13" required />
+                <label>Time:</label>
+                <input type="time" name="time" required />
+            </fieldset>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+        <script src="pizzaScript.js"></script>
+    </body>
+</html>
