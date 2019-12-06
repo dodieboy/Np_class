@@ -38,8 +38,8 @@ function sizeChange(size) {
     }
     totalPrice();
 }
-function toppingChange(topping) {
-    toppingPrice = document.querySelectorAll('input[id="topping"]:checked').length * 2;
+function toppingChange() {
+    toppingPrice = document.querySelectorAll('input[name="topping"]:checked').length * 2;
     totalPrice();
 }
 function totalPrice() {

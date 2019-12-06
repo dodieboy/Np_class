@@ -40,11 +40,11 @@
 
             <fieldset>
                 <legend>Toppings:</legend>
-                <input type="checkbox" name="Toppings" onclick="toppingChange(this);" id="topping" value="mushroom" />Mushroom <input type="checkbox" name="Toppings" onclick="toppingChange(this);" id="topping" value="sausage" />Sausage <input type="checkbox" name="Toppings" onclick="toppingChange(this);" id="topping" value="olives" />Olives
+                <input type="checkbox" onclick="toppingChange();" name="topping" value="mushroom" />Mushroom <input type="checkbox" onclick="toppingChange();" name="topping" value="sausage" />Sausage <input type="checkbox" onclick="toppingChange();" name="topping" value="olives" />Olives
             </fieldset>
 
             <label style="margin-top: 15px;">Addons:</label>
-            <select name="addon" multiple id="addon">
+            <select multiple id="addon">
                 <option id="addons" value="Buffalo Wings">Buffalo Wings</option>
                 <option id="addons" value="Garlic Bread">Garlic Bread</option>
             </select>
