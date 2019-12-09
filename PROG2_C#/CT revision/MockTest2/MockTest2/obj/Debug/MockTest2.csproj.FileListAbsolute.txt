@@ -1,0 +1,6 @@
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\MockTest2\MockTest2\obj\Debug\MockTest2.csprojAssemblyReference.cache
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\MockTest2\MockTest2\bin\Debug\MockTest2.exe.config
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\MockTest2\MockTest2\bin\Debug\MockTest2.exe
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\MockTest2\MockTest2\bin\Debug\MockTest2.pdb
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\MockTest2\MockTest2\obj\Debug\MockTest2.exe
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\MockTest2\MockTest2\obj\Debug\MockTest2.pdb

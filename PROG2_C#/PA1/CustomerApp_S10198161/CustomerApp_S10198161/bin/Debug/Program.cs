@@ -1,4 +1,10 @@
-﻿using System;
+﻿/*
+(c) 2019 Alan Tan
+This code is licensed under MIT license (See LICENSE.txt for details)
+SPDX-Short-Identifier: MIT
+*/
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -24,7 +30,7 @@ namespace CustomerApp_S10198161
             Console.WriteLine("{0, -10} {1, -11} {2, -15} {3, -13} {4, -16}", "========", "===========", "================", "=============", "================");
             foreach (Customer c in cList)
             {
-                Console.WriteLine("{0, -10} {1, 11} {2, 15} {3, 13} {4, 16:N3}", c.Name, c.LoanAmount, c.RepaymentPeriod, c.InterestRate, c.CalculateAmountDue());
+                Console.WriteLine("{0, -10} {1, 11:N3} {2, 15} {3, 13} {4, 16:N3}", c.Name, c.LoanAmount, c.RepaymentPeriod, c.InterestRate, c.CalculateAmountDue());
             }
             Console.WriteLine();
         }
