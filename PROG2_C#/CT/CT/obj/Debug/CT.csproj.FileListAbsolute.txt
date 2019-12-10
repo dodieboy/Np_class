@@ -1,0 +1,7 @@
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\CT\CT\bin\Debug\van.csv
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\CT\CT\bin\Debug\CT.exe.config
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\CT\CT\bin\Debug\CT.exe
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\CT\CT\bin\Debug\CT.pdb
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\CT\CT\obj\Debug\CT.csprojAssemblyReference.cache
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\CT\CT\obj\Debug\CT.exe
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\CT\CT\obj\Debug\CT.pdb
