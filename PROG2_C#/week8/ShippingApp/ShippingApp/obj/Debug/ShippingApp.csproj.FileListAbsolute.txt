@@ -1,0 +1,6 @@
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\week8\ShippingApp\ShippingApp\bin\Debug\ShippingApp.exe.config
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\week8\ShippingApp\ShippingApp\bin\Debug\ShippingApp.exe
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\week8\ShippingApp\ShippingApp\bin\Debug\ShippingApp.pdb
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\week8\ShippingApp\ShippingApp\obj\Debug\ShippingApp.csprojAssemblyReference.cache
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\week8\ShippingApp\ShippingApp\obj\Debug\ShippingApp.exe
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\week8\ShippingApp\ShippingApp\obj\Debug\ShippingApp.pdb
