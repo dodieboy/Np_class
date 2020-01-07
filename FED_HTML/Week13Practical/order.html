@@ -26,7 +26,7 @@
                     <div w3-include-html="header.html"></div>
                 </div>
             </div>
-            <form>
+            <form onsubmit="submits(); return false;">
                 <div class="selection">
                 <label>Item: </label>
                 <select id="item" onchange="price_cal()">
@@ -38,17 +38,17 @@
                     <option value="5">Pasta Puttanesca</option>
                 </select>
                 <label> Quantity: </label>
-                <input type="number" min="1" max="5" value="1" id="quantity" onchange="price_cal()" />
+                <input type="number" min="1" max="5" value="1" id="quantity" onchange="price_cal()" required />
                 <br />
                 <label>Name: </label>
-                <input type="text" id="name" />
+                <input type="text" id="name" required />
                 <br />
                 <label>Collection Date: </label>
-                <input type="date" id="date" onchange="price_cal()" />
+                <input type="date" id="date" onchange="price_cal()" required />
                 <p id="outputs"></p>
                 </div>
-                <input type="button" onclick="submits()" value="Submit" />
-                <input type="reset" />
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
                 <p id="complete_order"></p>
             </form>
             <div class="row">
