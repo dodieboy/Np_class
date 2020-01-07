@@ -1,0 +1,10 @@
+.selection {
+    border: 3pt orange solid;
+    padding: 25pt;
+}
+input[type="button"] {
+    margin: 15pt 0pt 15pt 10pt;
+}
+form p {
+    color: red;
+}
