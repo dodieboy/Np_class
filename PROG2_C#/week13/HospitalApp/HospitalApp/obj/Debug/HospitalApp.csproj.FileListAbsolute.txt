@@ -1,0 +1,8 @@
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\week13\HospitalApp\HospitalApp\bin\Debug\HospitalApp.exe.config
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\week13\HospitalApp\HospitalApp\bin\Debug\HospitalApp.exe
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\week13\HospitalApp\HospitalApp\bin\Debug\HospitalApp.pdb
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\week13\HospitalApp\HospitalApp\obj\Debug\HospitalApp.csprojAssemblyReference.cache
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\week13\HospitalApp\HospitalApp\obj\Debug\HospitalApp.exe
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\week13\HospitalApp\HospitalApp\obj\Debug\HospitalApp.pdb
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\week13\HospitalApp\HospitalApp\bin\Debug\Patients.csv
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\week13\HospitalApp\HospitalApp\bin\Debug\PatientsToDoctor.csv
