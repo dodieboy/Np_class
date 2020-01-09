@@ -4,7 +4,7 @@ var now = new Date();
 today = now.toISOString().slice(0, 10);
 document.getElementById("date").setAttribute("min", today);
 //for date 2 week later
-now.setDate(now.getDate() + 14);
+now.setMonth(now.getMonth() + 1);
 aWeekLater = now.toISOString().slice(0, 10);
 document.getElementById("date").setAttribute("max", aWeekLater);
 
