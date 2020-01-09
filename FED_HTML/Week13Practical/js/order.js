@@ -1,11 +1,11 @@
 //limit date for collection
 var now = new Date();
 //for today date
-today = now.toISOString().slice(0, 10);
+today = now.toISOString().slice(0, 10); //convert to string and format it to "YYYY-MM-DD"
 document.getElementById("date").setAttribute("min", today);
 //for a month later
 now.setMonth(now.getMonth() + 1);
-aMonthLater = now.toISOString().slice(0, 10);
+aMonthLater = now.toISOString().slice(0, 10); //convert to string and format it to "YYYY-MM-DD"
 document.getElementById("date").setAttribute("max", aMonthLater);
 
 //form
