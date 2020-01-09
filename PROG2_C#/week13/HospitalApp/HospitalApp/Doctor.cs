@@ -31,7 +31,7 @@ namespace HospitalApp
         }
         public void RemovePatient(Patient p)
         {
-            
+            PatientList.Remove(PatientList.Find(x => x == p));
         }
         public override string ToString()
         {

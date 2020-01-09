@@ -36,11 +36,11 @@ namespace HospitalApp
         }
         static void CreatePatients(List<Patient> patientList, List<Room> roomList)
         {
-            string[] temp = File.ReadAllText("Patients.csv").Replace("\r", string.Empty).Split('\n');
-            for (int i = 1; i < temp.Length - 1; i++)
+            string[] raw = File.ReadAllText("Patients.csv").Replace("\r", string.Empty).Split('\n');
+            for (int i = 1; i < raw.Length - 1; i++)
             {
-                string[] temp2 = temp[i].Split(',');
-                patientList.Add(new Patient(temp2[0], temp2[1], new Room(temp2[2],SearchRoom(roomList, temp2[2]).WardClass)));
+                string[] temp = raw[i].Split(',');
+                patientList.Add(new Patient(temp[0], temp[1], new Room(temp[2],SearchRoom(roomList, temp[2]).WardClass)));
             }
         }
         static Room SearchRoom(List<Room> roomList, string w)
@@ -59,11 +59,11 @@ namespace HospitalApp
         }
         static void AssignPatientsToDoctors(List<Patient> patientList, List<Doctor> doctorList)
         {
-            string[] temp = File.ReadAllText("PatientsToDoctor.csv").Replace("\r", string.Empty).Split('\n');
-            for (int i = 1; i < temp.Length - 1; i++)
+            string[] raw = File.ReadAllText("PatientsToDoctor.csv").Replace("\r", string.Empty).Split('\n');
+            for (int i = 1; i < raw.Length - 1; i++)
             {
-                string[] temp2 = temp[i].Split(',');
-                patientList.Add(new Patient(temp2[0], temp2[1], new Room(temp2[2], SearchRoom(roomList, temp2[2]))));
+                string[] temp = raw[i].Split(',');
+                
             }
         }
         static Doctor SearchDoctor(List<Doctor> doctorList, string nric)
