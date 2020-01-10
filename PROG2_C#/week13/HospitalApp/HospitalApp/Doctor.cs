@@ -9,7 +9,7 @@ namespace HospitalApp
     public class Doctor:Person
     {
         private string department;
-        private List<Patient> patientList;
+        private List<Patient> patientList = new List<Patient>();
         public string Department
         {
             get { return department; }
