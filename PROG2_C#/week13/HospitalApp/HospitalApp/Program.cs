@@ -48,12 +48,13 @@ namespace HospitalApp
         {
             foreach (Doctor data in doctorList)
             {
+                Console.WriteLine("Doctor: " + data.Name);
                 foreach (Patient info in data.PatientList)
                 {
                     Console.WriteLine(info);
                 }
+                Console.WriteLine();
             }
-            Console.WriteLine();
         }
 
         static Room SearchRoom(List<Room> roomList, string w)
