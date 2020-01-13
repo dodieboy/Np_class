@@ -31,10 +31,10 @@ namespace PosApp
             {
                 double gTotal = 0;
                 Console.WriteLine("{0, -3} {1, -15} {2, -9} {3, -3} {4}", "No.", "Name", "Price", "Qty", "Total");
-                for (int i = 0; i < cList.ItemList.Count; i++)
+                for (int i = 0; i < cList.GetItemList().Count; i++)
                 {
-                    gTotal += cList.ItemList[i].Price * cList.ItemList[i].Qty;
-                    Console.WriteLine("{0, -3} {1, -15} ${2, -8:N2} {3, -3} ${4:N2}", i + 1, cList.ItemList[i].Name, cList.ItemList[i].Price, cList.ItemList[i].Qty, (cList.ItemList[i].Price * cList.ItemList[i].Qty));
+                    gTotal += cList.GetItemList()[i].Price * cList.GetItemList()[i].Qty;
+                    Console.WriteLine("{0, -3} {1, -15} ${2, -8:N2} {3, -3} ${4:N2}", i + 1, cList.GetItemList()[i].Name, cList.GetItemList()[i].Price, cList.GetItemList()[i].Qty, (cList.GetItemList()[i].Price * cList.GetItemList()[i].Qty));
                 }
                 if (total) //if total == true
                 {

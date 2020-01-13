@@ -9,11 +9,6 @@ namespace PosApp
     public class ShoppingCart
     {
         private List<CartItem> itemList = new List<CartItem>();
-        public List<CartItem> ItemList
-        {
-            get { return itemList; }
-            set { itemList = value; }
-        }
         public ShoppingCart() { }
         public void AddItem(CartItem i)
         {
@@ -21,25 +16,25 @@ namespace PosApp
         }
         public List<CartItem> GetItemList()
         {
-            return null;
+            return itemList;
         }
         public bool RemoveItem(int q)
         {
-            ItemList.Remove(itemList[q]);
+            itemList.Remove(itemList[q]);
             return true;
         }
         public void ClearCart()
         {
-            ItemList.Clear();
+            itemList.Clear();
             Console.WriteLine("Cart is cleared!");
         }
         public int Size()
         {
-            return 1;
+            return itemList.Count();
         }
         public bool IsEmpty()
         {
-            if(ItemList.Count == 0)
+            if(itemList.Count == 0)
             {
                 return true;
             }
