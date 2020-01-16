@@ -1,0 +1,37 @@
+<!--
+    Copyright (c) 2019 Alan Tan
+    This document is licensed under MIT license (See LICENSE for details)
+    SPDX-Short-Identifier: MIT
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="author" content="Tan Jia Shun" />
+        <meta name="description" content="Week 14 Practical – task 4" />
+        <title>AJAX task 4"</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+            function displayImage(Pet) {
+                if (Pet == "Cat") {
+                    $("#ImageSpace").show();
+                    $("#ImageSpace").html('<img src="images/cat.jpg"/>');
+                } else if (Pet == "Dog") {
+                    $("#ImageSpace").show();
+                    $("#ImageSpace").html('<img src="images/dog.jpg"/>');
+                } else {
+                    $("#ImageSpace").hide();
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <button onclick="displayImage('Cat')">Cat</button>
+        <button onclick="displayImage('Dog')">Dog</button>
+        <button onclick="displayImage('Hide')">Hide</button>
+        <br />
+
+        <div id="ImageSpace" style="width:600px; height:200px"></div>
+    </body>
+</html>

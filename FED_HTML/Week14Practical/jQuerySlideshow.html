@@ -1,0 +1,33 @@
+<!--
+    Copyright (c) 2019 Alan Tan
+    This document is licensed under MIT license (See LICENSE for details)
+    SPDX-Short-Identifier: MIT
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="author" content="Tan Jia Shun" />
+        <meta name="description" content="Week 14 Practical – task 5" />
+        <title>AJAX task 5"</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="css/slideshow.css" />
+        <script>
+            function fadeImage(I) {
+                var Image = "#" + I; //String concatenation
+                $(Image).fadeIn();
+                $(Image).fadeOut(3000, function() {
+                    fadeImage(I == 1 ? 5 : I - 1);
+                });
+            }
+        </script>
+    </head>
+    <body onload="fadeImage(5);">
+        <img id="1" src="images/1.jpg" />
+        <img id="2" src="images/2.jpg" />
+        <img id="3" src="images/3.jpg" />
+        <img id="4" src="images/4.jpg" />
+        <img id="5" src="images/5.jpg" />
+    </body>
+</html>
