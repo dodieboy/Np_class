@@ -14,7 +14,7 @@ namespace CT
             get { return numberOfSeats; }
             set { numberOfSeats = value; }
         }
-        public Van() { }
+        public Van(): base() { }
         public Van(string p, string b, double r, int s) : base(p, b, r)
         {
             NumberOfSeats = s;
