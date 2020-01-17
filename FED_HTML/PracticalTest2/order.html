@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="author" content="Tan Jia Shun S10198161D" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!-- Bootstrap minified CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <!-- jQuery library -->
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <!-- Bootstrap JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
+        <!-- Site specific Cascading Stylesheet -->
+        <link rel="stylesheet" href="css/orderStyles.css" />
+        <!-- Reference to the JavaScript library for including a HTML page -->
+        <script src="js/w3.js"></script>
+        <!-- Reference to the JavaScript to calculate the total price and display pop-up box -->
+        <script src="js/cakeOrderScript.js" defer></script>
+        <title>Order Form</title>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <!-- To Do: 1st row - Header -->
+            <div class="row">
+                <div class="col-sm-12">
+                    <div w3-include-html="header.html"></div>
+                </div>
+            </div>
+            <!-- 2nd row - Content Section -->
+            <div class="row">
+                <div class="col-sm-12">
+                    <form id="orderForm" onSubmit="return submitForm()">
+                        <h1>Order Form</h1>
+                        <fieldset id="cakeDetail">
+                            <legend>Cake Detail</legend>
+                            <label for="cakeType" class="labelAlign">Type of Cake:</label>
+                            <select name="cakeType" id="cakeType" required onchange="calculateTotal()">
+                                <option value="">Please select the type of cake</option>
+                                <option value="Cheesecake">Cheesecake</option>
+                                <option value="Black Forest Cake">Black Forest Cake</option>
+                                <option value="Chocolate Cake">Chocolate Cake</option>
+                                <option value="Fruit Cake">Fruit Cake</option>
+                            </select>
+                            <br />
+                            <label for="quantity" class="labelAlign">Quantity:</label>
+                            <input id="quantity" class="boxWidth" name="quatity" type="number" min="1" max="5" value="1" onchange="calculateTotal()" />
+                            <br />
+                            <label for="size" class="labelAlign">Size:</label>
+                            <input type="radio" name="size" value="small" onclick="calculateTotal()" checked required /> Small <input type="radio" name="size" value="medium" onclick="calculateTotal()" /> Medium <input type="radio" name="size" value="large" onclick="calculateTotal()" /> Large
+                        </fieldset>
+                        <p>
+                            <label id="totalPrice"></label>
+                        </p>
+                        <fieldset name="Deliver to">
+                            <legend>Deliver to:</legend>
+                            <label for="iName" class="labelAlign">Name:</label>
+                            <input id="iName" class="boxWidth" name="Name" type="text" autocomplete="Name" required />
+                            <br />
+                            <label for="iAddress" class="labelAlign">Address:</label>
+                            <textarea id="iAddress" class="boxWidth" rows="2" cols="20" name="Address" autocomplete="on" required></textarea>
+                            <label for="iPostalCode" class="labelAlign">Postal Code:</label>
+                            <input id="iPostalCode" type="text" maxlength="6" size="6" name="PostalCode" required pattern="\d{6}" />
+                            <br />
+                            <label for="iTelephone" class="labelAlign">Phone #:</label>
+                            <input type="tel" id="iTelephone" class="boxWidth" name="Phone" size="8" pattern="[689]\d{7}" required />
+                            <br />
+                            <label for="iEmail" class="labelAlign">Email:</label>
+                            <input type="email" id="iEmail" class="boxWidth" name="Email" width="200" placeholder="Enter email addresses" required />
+                            <br />
+                            <label for="iDate" class="labelAlign">Date:</label>
+                            <input type="date" id="iDate" class="boxWidth" name="Date" required />
+                            <label for="iTime" class="labelAlign">Time:</label>
+                            <input type="time" id="iTime" name="Time" value="10:00" min="10:00" max="22:00" step="1800" required />
+                            <br />
+                        </fieldset>
+
+                        <br />
+                        <input type="submit" value="Submit" />
+                        <input type="reset" id="reset" onclick="clearMessage()" />
+                        <br />
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            w3.includeHTML();
+        </script>
+    </body>
+</html>

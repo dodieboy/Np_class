@@ -1,0 +1,47 @@
+﻿/*recipeStyles.css*/
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Arial, serif;
+    font-size: 100%;
+    background-color: white;
+    margin: 0;
+}
+
+#recipe {
+    border: 3px solid #783f27;
+    padding: 20px;
+}
+
+h1,
+h3 {
+    color: brown;
+}
+
+table,
+tr,
+td {
+    border: 2px dotted black;
+    padding: 10px;
+}
+table {
+    clear: both;
+    margin: 0 auto;
+}
+img {
+    width: 400px;
+    max-width: 100%;
+    border: 2px solid #783f27;
+}
+.img {
+    max-width: 400px;
+    clear: both;
+    margin: 0 auto;
+}
+.img p {
+    text-align: center;
+    font-style: italic;
+}

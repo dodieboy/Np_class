@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="author" content="Tan Jia Shun S10198161D" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!-- Bootstrap minified CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <!-- jQuery library -->
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <!-- Bootstrap JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
+        <!-- Site specific Cascading Stylesheet -->
+        <link rel="stylesheet" href="css/recipeStyles.css" />
+        <!-- Reference to the JavaScript library for including a HTML page -->
+        <script src="js/w3.js"></script>
+        <title>Recipe</title>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <!-- To Do: 1st row - Header -->
+            <div class="row">
+                <div class="col-sm-12">
+                    <div w3-include-html="header.html"></div>
+                </div>
+            </div>
+            <!-- 2nd row - Content Section -->
+            <div class="row">
+                <div class="col-sm-12">
+                    <section id="recipe">
+                        <h1>Strawberry Cheesecake</h1>
+                        <p>Follow our step-by-step recipe for this easy no-cook cheesecake – a delicious dessert for all occasions.</p>
+                        <div class="img">
+                            <img alt="Cheese Cake" src="images/cheese-cake.jpg" title="Cheese Cake" />
+                            <p>image from https://www.fnp.sg/</p>
+                        </div>
+                        <h3>Ingredients</h3>
+                        <table>
+                            <tr>
+                                <td rowspan="2">Crust</td>
+                                <td>Digestive biscuits</td>
+                                <td>250g</td>
+                            </tr>
+                            <tr>
+                                <td>Butter</td>
+                                <td>100g</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="3">Cheesecake Filling</td>
+                                <td>Cream cheese</td>
+                                <td>600g</td>
+                            </tr>
+                            <tr>
+                                <td>Double cream</td>
+                                <td>284ml</td>
+                            </tr>
+                            <tr>
+                                <td>Vanilla extract</td>
+                                <td>1 teaspoon</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="2">Topping</td>
+                                <td>Fresh Strawberries</td>
+                                <td>400g</td>
+                            </tr>
+                            <tr>
+                                <td>icing sugar</td>
+                                <td>25g</td>
+                            </tr>
+                        </table>
+
+                        <br />
+                        <h3>Instructions</h3>
+                        <ul>
+                            <li>Line a 23cm loose-bottomed tin with baking parchment.</li>
+
+                            <li>Put the digestive biscuits in a plastic food bag and crush to crumbs using a rolling pin. Transfer the crumbs to a bowl, then pour over the melted butter. Mix thoroughly until the crumbs are completely coated. Tip them into the prepared tin and press firmly down into the base to create an even layer. Chill in the fridge for 1 hr to set firmly.</li>
+                            <li>Place the cream cheese, icing sugar and the vanilla extract in a bowl, then beat with an electric mixer until smooth. Tip in the double cream and continue beating until the mixture is completely combined. Spoon the cream mixture onto the biscuit base, starting from the edges and working inwards, making sure that there are no air bubbles. Smooth the top of the cheesecake down with the back of a dessert spoon or spatula. Leave to set in the fridge overnight.</li>
+                            <li>Bring the cheesecake to room temperature about 30 mins before serving. Slip the cake onto a serving plate, removing the lining paper and base. Purée half the strawberries in a blender or food processor with the icing sugar and 1 tsp water, then sieve. Pile the remaining strawberries onto the cake, and pour the purée over the top.</li>
+                            <li>You can now enjoy the delicious Strawberry Cheesecake!</li>
+                        </ul>
+                        <ol start="2">
+                            <h1>Other Cakes</h1>
+                            <li>Black Forest Cake</li>
+                            <li>Chocolate Cake</li>
+                            <li>Fruit Cake</li>
+                        </ol>
+                    </section>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            w3.includeHTML();
+        </script>
+    </body>
+</html>
