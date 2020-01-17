@@ -1,0 +1,9 @@
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\week14\BookApp\BookApp\bin\Debug\BookApp.exe.config
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\week14\BookApp\BookApp\bin\Debug\BookApp.exe
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\week14\BookApp\BookApp\bin\Debug\BookApp.pdb
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\week14\BookApp\BookApp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\week14\BookApp\BookApp\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\week14\BookApp\BookApp\obj\Debug\BookApp.csprojAssemblyReference.cache
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\week14\BookApp\BookApp\obj\Debug\BookApp.csproj.CopyComplete
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\week14\BookApp\BookApp\obj\Debug\BookApp.exe
+C:\Users\Alan\Desktop\school\Np\Np_class\PROG2_C#\week14\BookApp\BookApp\obj\Debug\BookApp.pdb
