@@ -1,0 +1,10 @@
+gyoza
+foie_gras
+greek_salad
+strawberry_shortcake
+gnocchi
+fried_rice
+miso_soup
+caesar_salad
+caprese_salad
+beef_tartare

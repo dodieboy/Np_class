@@ -1,0 +1,10 @@
+gyoza
+peking_duck
+prime_rib
+hot_and_sour_soup
+spring_rolls
+pad_thai
+breakfast_burrito
+beet_salad
+risotto
+greek_salad

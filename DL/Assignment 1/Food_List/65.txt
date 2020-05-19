@@ -1,0 +1,10 @@
+pizza
+seaweed_salad
+onion_rings
+grilled_cheese_sandwich
+sushi
+pancakes
+spaghetti_bolognese
+chicken_wings
+nachos
+pork_chop

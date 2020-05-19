@@ -1,0 +1,10 @@
+edamame
+pizza
+deviled_eggs
+onion_rings
+red_velvet_cake
+fried_rice
+seaweed_salad
+sashimi
+breakfast_burrito
+omelette

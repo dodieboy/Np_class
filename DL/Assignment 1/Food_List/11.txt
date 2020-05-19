@@ -1,0 +1,10 @@
+pancakes
+beignets
+pizza
+lasagna
+panna_cotta
+ravioli
+cannoli
+churros
+spring_rolls
+hot_dog

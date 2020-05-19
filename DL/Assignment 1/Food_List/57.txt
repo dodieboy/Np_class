@@ -1,0 +1,10 @@
+guacamole
+dumplings
+french_fries
+breakfast_burrito
+cheese_plate
+greek_salad
+prime_rib
+ravioli
+scallops
+escargots
