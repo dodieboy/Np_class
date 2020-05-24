@@ -46,9 +46,12 @@ def factorial(number_of_letters):
 
     result = 1
     mins = number_of_letters
-    for i in range(number_of_letters):
-        result = result * mins
-        mins -= 1
+    if(mins==0):
+        result=0
+    else:
+        for i in range(number_of_letters):
+            result = result * mins
+            mins -= 1
     print('The number of combination for {}-letters words is {}'.format(number_of_letters,result)) #To display output
     
     return result#Do not remove this line
@@ -56,7 +59,7 @@ def factorial(number_of_letters):
     
 #Do not remove the next line
 #factorial(number_of_letters)
-factorial(7)
+factorial(0)
 
 #input 5, output 120
 #input 0, output 0
