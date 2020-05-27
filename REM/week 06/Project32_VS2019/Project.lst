@@ -1,4 +1,4 @@
-Microsoft (R) Macro Assembler Version 14.26.28805.0	    05/22/20 14:38:17
+Microsoft (R) Macro Assembler Version 14.26.28805.0	    05/27/20 12:25:03
 work1.asm						     Page 1 - 1
 
 
@@ -22,86 +22,41 @@ work1.asm						     Page 1 - 1
 			      C 
 
  00000000			.data
- 00000000 00000000		score SDWORD ?,0
-	   00000000
- 00000008 53 63 6F 72 65	titleScore BYTE "Score:",0
-	   3A 00
- 0000000F 20 47 72 61 64	titleGrade BYTE " Grade:",0
-	   65 3A 00
- 00000017 00 00			grade BYTE ?,0
- 00000019 41 00			grA BYTE "A",0
- 0000001B 42 00			grB BYTE "B",0
- 0000001D 43 00			grC BYTE "C",0
- 0000001F 44 00			grD BYTE "D",0
- 00000021 46 00			grF BYTE "F",0
- 00000023 54 68 65 20 69	out_of_range BYTE "The integer is not <= 100 and >= 0",0
-	   6E 74 65 67 65
-	   72 20 69 73 20
-	   6E 6F 74 20 3C
-	   3D 20 31 30 30
-	   20 61 6E 64 20
-	   3E 3D 20 30 00
+ 00000000 0000000A		    N sdword 10
+ 00000004 0000000A		    A sdword 10
+ 00000008 0000000A		    B sdword 10
 
  00000000			.code
  00000000			main PROC
- 00000000  E8 00000000 E	    call Randomize
- 00000005  B8 00000065		    mov eax,101  ;set random range from 0 to 100
- 0000000A  BA 00000008 R	    mov  edx,OFFSET titleScore
- 0000000F  E8 00000000 E	    call WriteString
- 00000014  E8 00000000 E	    call RandomRange
- 00000019  A3 00000000 R	    mov score, eax
- 0000001E  8B 15 00000000 R	    mov edx, score
- 00000024  E8 00000000 E	    call writeDec
- 00000029  BA 0000000F R	    mov  edx,OFFSET titleGrade
- 0000002E  E8 00000000 E	    call WriteString
- 00000033  E8 0000001B		    call GradeCalc
- 00000038  BA 00000000		    mov edx,0
- 0000003D  A2 00000017 R	    mov grade,al
- 00000042  BA 00000017 R	    mov edx, OFFSET grade
- 00000047  E8 00000000 E	    call WriteChar
+ 00000000  A1 00000000 R	    MOV EAX, N
+ 00000005  8B 1D 00000004 R	    MOV EBX, A
+ 0000000B  8B 0D 00000008 R	    MOV ECX, B
+
+ 00000011			    whileloop:
+ 00000011  83 F8 00		        CMP EAX, 0
+ 00000014  7E 1B		        JLE exits
+ 00000016  83 F8 03		        CMP EAX, 3
+ 00000019  74 11		        JE L3
+ 0000001B  EB 00		        JMP L1
+ 0000001D			        L1:
+ 0000001D  3B C3		            CMP EAX, EBX
+ 0000001F  7C 06		            JL L2
+ 00000021  3B C1		            CMP EAX, ECX
+ 00000023  7F 02		            JG L2
+ 00000025  EB 05		            JMP L3
+ 00000027			        L2:
+ 00000027  83 E8 02		            SUB EAX, 2
+ 0000002A  EB E5		            JMP whileloop
+ 0000002C			        L3:
+ 0000002C  83 E8 01		            SUB EAX, 1
+ 0000002F  EB E0		            JMP whileloop
+ 00000031			    exits:
 				    exit
- 0000004C  6A 00	   *	    push   +000000000h
- 0000004E  E8 00000000 E   *	    call   ExitProcess
- 00000053			main ENDP
-
- 00000053			GradeCalc PROC
- 00000053  83 F8 64		    cmp eax,100
- 00000056  7C 02		    jl Check1
- 00000058  7F 37		    jnle Error1
- 0000005A			    Check1:
- 0000005A  83 F8 50		        cmp eax,80
- 0000005D  7C 06		        jl Check2
- 0000005F  A0 00000019 R	        mov al,grA
- 00000064  C3			        ret
- 00000065			    Check2:
- 00000065  83 F8 46		        cmp eax,70
- 00000068  7C 06		        jl Check3
- 0000006A  A0 0000001B R	        mov al,grB
- 0000006F  C3			        ret
- 00000070			    Check3:
- 00000070  83 F8 3C		        cmp eax,60
- 00000073  7C 06		        jl Check4
- 00000075  A0 0000001D R	        mov al,grC
- 0000007A  C3			        ret
- 0000007B			    Check4:
- 0000007B  83 F8 32		        cmp eax,50
- 0000007E  7C 06		        jl Check5
- 00000080  A0 0000001F R	        mov al,grD
- 00000085  C3			        ret
- 00000086			    Check5:
- 00000086  83 F8 00		        cmp eax,0
- 00000089  7C 06		        jl Error1
- 0000008B  A0 00000021 R	        mov al,grF
- 00000090  C3			        ret
- 00000091			    Error1:
- 00000091  BA 00000023 R	        mov edx,OFFSET out_of_range
- 00000096  E8 00000000 E	        call WriteString
- 0000009B  E8 00000000 E	        call Crlf
- 000000A0  C3			        ret
- 000000A1			GradeCalc ENDP
-
+ 00000031  6A 00	   *	    push   +000000000h
+ 00000033  E8 00000000 E   *	    call   ExitProcess
+ 00000038			main ENDP
 				END main
-Microsoft (R) Macro Assembler Version 14.26.28805.0	    05/22/20 14:38:17
+Microsoft (R) Macro Assembler Version 14.26.28805.0	    05/27/20 12:25:03
 work1.asm						     Symbols 2 - 1
 
 
@@ -195,8 +150,8 @@ Segments and Groups:
 
 FLAT . . . . . . . . . . . . . .	GROUP
 STACK  . . . . . . . . . . . . .	32 Bit	 00001000 Para	  Stack	  'STACK'	 
-_DATA  . . . . . . . . . . . . .	32 Bit	 00000046 Para	  Public  'DATA'	
-_TEXT  . . . . . . . . . . . . .	32 Bit	 000000A1 Para	  Public  'CODE'	
+_DATA  . . . . . . . . . . . . .	32 Bit	 0000000C Para	  Public  'DATA'	
+_TEXT  . . . . . . . . . . . . .	32 Bit	 00000038 Para	  Public  'CODE'	
 
 
 Procedures, parameters, and locals:
@@ -237,13 +192,6 @@ GetSystemTime  . . . . . . . . .	P Near	 00000000 FLAT	Length= 00000000 External
 GetTextColor . . . . . . . . . .	P Near	 00000000 FLAT	Length= 00000000 External STDCALL
 GetTickCount . . . . . . . . . .	P Near	 00000000 FLAT	Length= 00000000 External STDCALL
 Gotoxy . . . . . . . . . . . . .	P Near	 00000000 FLAT	Length= 00000000 External STDCALL
-GradeCalc  . . . . . . . . . . .	P Near	 00000053 _TEXT	Length= 0000004E Public STDCALL
-  Check1 . . . . . . . . . . . .	L Near	 0000005A _TEXT	
-  Check2 . . . . . . . . . . . .	L Near	 00000065 _TEXT	
-  Check3 . . . . . . . . . . . .	L Near	 00000070 _TEXT	
-  Check4 . . . . . . . . . . . .	L Near	 0000007B _TEXT	
-  Check5 . . . . . . . . . . . .	L Near	 00000086 _TEXT	
-  Error1 . . . . . . . . . . . .	L Near	 00000091 _TEXT	
 HeapAlloc  . . . . . . . . . . .	P Near	 00000000 FLAT	Length= 00000000 External STDCALL
 HeapCreate . . . . . . . . . . .	P Near	 00000000 FLAT	Length= 00000000 External STDCALL
 HeapDestroy  . . . . . . . . . .	P Near	 00000000 FLAT	Length= 00000000 External STDCALL
@@ -310,7 +258,12 @@ WriteStackFrame  . . . . . . . .	P Near	 00000000 FLAT	Length= 00000000 External
 WriteString  . . . . . . . . . .	P Near	 00000000 FLAT	Length= 00000000 External STDCALL
 WriteToFile  . . . . . . . . . .	P Near	 00000000 FLAT	Length= 00000000 External STDCALL
 WriteWindowsMsg  . . . . . . . .	P Near	 00000000 FLAT	Length= 00000000 External STDCALL
-main . . . . . . . . . . . . . .	P Near	 00000000 _TEXT	Length= 00000053 Public STDCALL
+main . . . . . . . . . . . . . .	P Near	 00000000 _TEXT	Length= 00000038 Public STDCALL
+  whileloop  . . . . . . . . . .	L Near	 00000011 _TEXT	
+  L1 . . . . . . . . . . . . . .	L Near	 0000001D _TEXT	
+  L2 . . . . . . . . . . . . . .	L Near	 00000027 _TEXT	
+  L3 . . . . . . . . . . . . . .	L Near	 0000002C _TEXT	
+  exits  . . . . . . . . . . . .	L Near	 00000031 _TEXT	
 printf . . . . . . . . . . . . .	P Near	 00000000 FLAT	Length= 00000000 External C
 scanf  . . . . . . . . . . . . .	P Near	 00000000 FLAT	Length= 00000000 External C
 wsprintfA  . . . . . . . . . . .	P Near	 00000000 FLAT	Length= 00000000 External C
@@ -330,6 +283,8 @@ Symbols:
 @fardata . . . . . . . . . . . .	Text   	 FLAT
 @stack . . . . . . . . . . . . .	Text   	 FLAT
 ALT_MASK . . . . . . . . . . . .	Number	 00000003h   
+A  . . . . . . . . . . . . . . .	DWord	 00000004 _DATA	
+B  . . . . . . . . . . . . . . .	DWord	 00000008 _DATA	
 CAPSLOCK_ON  . . . . . . . . . .	Number	 00000080h   
 CREATE_ALWAYS  . . . . . . . . .	Number	 00000002h   
 CREATE_NEW . . . . . . . . . . .	Number	 00000001h   
@@ -431,6 +386,7 @@ MOUSE_EVENT  . . . . . . . . . .	Number	 00000002h
 MessageBox . . . . . . . . . . .	Text   	 MessageBoxA
 NULL . . . . . . . . . . . . . .	Number	 00000000h   
 NUMLOCK_ON . . . . . . . . . . .	Number	 00000020h   
+N  . . . . . . . . . . . . . . .	DWord	 00000000 _DATA	
 OPEN_ALWAYS  . . . . . . . . . .	Number	 00000004h   
 OPEN_EXISTING  . . . . . . . . .	Number	 00000003h   
 PeekConsoleInput . . . . . . . .	Text   	 PeekConsoleInputA
@@ -534,12 +490,6 @@ blue . . . . . . . . . . . . . .	Number	 00000001h
 brown  . . . . . . . . . . . . .	Number	 00000006h   
 cyan . . . . . . . . . . . . . .	Number	 00000003h   
 exit . . . . . . . . . . . . . .	Text   	 INVOKE ExitProcess,0
-grA  . . . . . . . . . . . . . .	Byte	 00000019 _DATA	
-grB  . . . . . . . . . . . . . .	Byte	 0000001B _DATA	
-grC  . . . . . . . . . . . . . .	Byte	 0000001D _DATA	
-grD  . . . . . . . . . . . . . .	Byte	 0000001F _DATA	
-grF  . . . . . . . . . . . . . .	Byte	 00000021 _DATA	
-grade  . . . . . . . . . . . . .	Byte	 00000017 _DATA	
 gray . . . . . . . . . . . . . .	Number	 00000008h   
 green  . . . . . . . . . . . . .	Number	 00000002h   
 lightBlue  . . . . . . . . . . .	Number	 00000009h   
@@ -549,11 +499,7 @@ lightGreen . . . . . . . . . . .	Number	 0000000Ah
 lightMagenta . . . . . . . . . .	Number	 0000000Dh   
 lightRed . . . . . . . . . . . .	Number	 0000000Ch   
 magenta  . . . . . . . . . . . .	Number	 00000005h   
-out_of_range . . . . . . . . . .	Byte	 00000023 _DATA	
 red  . . . . . . . . . . . . . .	Number	 00000004h   
-score  . . . . . . . . . . . . .	DWord	 00000000 _DATA	
-titleGrade . . . . . . . . . . .	Byte	 0000000F _DATA	
-titleScore . . . . . . . . . . .	Byte	 00000008 _DATA	
 white  . . . . . . . . . . . . .	Number	 0000000Fh   
 wsprintf . . . . . . . . . . . .	Text   	 wsprintfA
 yellow . . . . . . . . . . . . .	Number	 0000000Eh   

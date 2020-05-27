@@ -5,3 +5,4 @@ np-fed-healthyliving
 *.h5
 Release
 Debug
+.vs
