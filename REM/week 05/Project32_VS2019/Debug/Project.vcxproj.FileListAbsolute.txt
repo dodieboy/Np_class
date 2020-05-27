@@ -1,6 +1,0 @@
-D:\School\NP\Np_class\REM\week 02\Project32_VS2019\Debug\Project.exe
-D:\School\NP\Np_class\REM\week 02\Project32_VS2019\Debug\Project.pdb
-C:\School\NP\Np_class\REM\week 04\Project32_VS2019\Debug\Project.exe
-C:\School\NP\Np_class\REM\week 04\Project32_VS2019\Debug\Project.pdb
-C:\School\NP\Np_class\REM\week 05\Project32_VS2019\Debug\Project.exe
-C:\School\NP\Np_class\REM\week 05\Project32_VS2019\Debug\Project.pdb
