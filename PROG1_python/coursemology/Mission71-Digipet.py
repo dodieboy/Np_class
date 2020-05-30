@@ -44,10 +44,7 @@ def start_pet():
     print('Digipet')
 
     while True:
-        print('(1) Feed')
-        print('(2) Play')
-        print('(3) Rest')
-        print('(4) Status')
+        print('(1) Feed\n(2) Play\n(3) Rest\n(4) Status')
         inputs = int(input('Please select an option: '))
 
         if inputs == 1:
