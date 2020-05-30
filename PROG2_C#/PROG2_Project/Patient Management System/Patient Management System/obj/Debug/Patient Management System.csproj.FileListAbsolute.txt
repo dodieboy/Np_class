@@ -1,0 +1,11 @@
+D:\School\NP\prg2_t07_team\Patient Management System\Patient Management System\bin\Debug\beds.csv
+D:\School\NP\prg2_t07_team\Patient Management System\Patient Management System\bin\Debug\patients.csv
+D:\School\NP\prg2_t07_team\Patient Management System\Patient Management System\bin\Debug\Patient Management System.exe.config
+D:\School\NP\prg2_t07_team\Patient Management System\Patient Management System\bin\Debug\Patient Management System.exe
+D:\School\NP\prg2_t07_team\Patient Management System\Patient Management System\bin\Debug\Patient Management System.pdb
+D:\School\NP\prg2_t07_team\Patient Management System\Patient Management System\bin\Debug\Newtonsoft.Json.dll
+D:\School\NP\prg2_t07_team\Patient Management System\Patient Management System\bin\Debug\Newtonsoft.Json.xml
+D:\School\NP\prg2_t07_team\Patient Management System\Patient Management System\obj\Debug\Patient Management System.csprojAssemblyReference.cache
+D:\School\NP\prg2_t07_team\Patient Management System\Patient Management System\obj\Debug\Patient Management System.csproj.CopyComplete
+D:\School\NP\prg2_t07_team\Patient Management System\Patient Management System\obj\Debug\Patient Management System.exe
+D:\School\NP\prg2_t07_team\Patient Management System\Patient Management System\obj\Debug\Patient Management System.pdb
