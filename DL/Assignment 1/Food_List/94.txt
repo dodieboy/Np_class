@@ -1,0 +1,10 @@
+nachos
+cannoli
+tuna_tartare
+ravioli
+filet_mignon
+apple_pie
+seaweed_salad
+pulled_pork_sandwich
+oysters
+edamame

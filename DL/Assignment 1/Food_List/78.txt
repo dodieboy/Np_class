@@ -1,0 +1,10 @@
+carrot_cake
+ice_cream
+takoyaki
+spaghetti_bolognese
+samosa
+scallops
+ramen
+lasagna
+clam_chowder
+french_onion_soup

@@ -1,0 +1,10 @@
+seaweed_salad
+cheese_plate
+crab_cakes
+omelette
+lobster_roll_sandwich
+filet_mignon
+miso_soup
+carrot_cake
+clam_chowder
+apple_pie

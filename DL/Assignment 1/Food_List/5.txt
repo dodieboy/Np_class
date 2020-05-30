@@ -1,0 +1,10 @@
+hamburger
+greek_salad
+steak
+chocolate_cake
+spaghetti_carbonara
+edamame
+poutine
+churros
+lasagna
+pho

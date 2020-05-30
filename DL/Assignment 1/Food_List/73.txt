@@ -1,0 +1,10 @@
+chocolate_cake
+carrot_cake
+chicken_quesadilla
+lasagna
+cheesecake
+red_velvet_cake
+strawberry_shortcake
+french_onion_soup
+french_toast
+ice_cream

@@ -1,0 +1,10 @@
+omelette
+sashimi
+bibimbap
+spaghetti_bolognese
+nachos
+chicken_curry
+lobster_roll_sandwich
+ceviche
+croque_madame
+miso_soup

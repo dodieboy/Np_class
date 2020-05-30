@@ -1,0 +1,10 @@
+huevos_rancheros
+fish_and_chips
+escargots
+bibimbap
+spring_rolls
+chocolate_cake
+chicken_wings
+sashimi
+pork_chop
+miso_soup
