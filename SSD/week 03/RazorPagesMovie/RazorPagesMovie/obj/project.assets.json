@@ -12957,23 +12957,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\SSDStudent\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Alan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SSDStudent\\source\\repos\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie.csproj",
+      "projectUniqueName": "C:\\School\\NP\\Np_class\\SSD\\week 03\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie.csproj",
       "projectName": "RazorPagesMovie",
-      "projectPath": "C:\\Users\\SSDStudent\\source\\repos\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie.csproj",
-      "packagesPath": "C:\\Users\\SSDStudent\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SSDStudent\\source\\repos\\RazorPagesMovie\\RazorPagesMovie\\obj\\",
+      "projectPath": "C:\\School\\NP\\Np_class\\SSD\\week 03\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie.csproj",
+      "packagesPath": "C:\\Users\\Alan\\.nuget\\packages\\",
+      "outputPath": "C:\\School\\NP\\Np_class\\SSD\\week 03\\RazorPagesMovie\\RazorPagesMovie\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\SSDStudent\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Alan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -13020,10 +13016,16 @@
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
       }
     }
   }
