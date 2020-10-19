@@ -1,0 +1,16 @@
+Prompt user for weight of parcel in kg
+Get weight
+Prompt the user for the need of express service
+Get express service
+
+if weight is less than 1 kg
+    than final cost = 10
+else weight is less or equal than 5 kg
+    than final cost = 15
+else weight is more than 5 kg
+    than final cost = 20
+
+if express_service equal 'y'
+    than final cost = final cost + 10.5
+
+Output the final cost to the user

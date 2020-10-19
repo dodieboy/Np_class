@@ -1,0 +1,9 @@
+prompt user for weight of baggage
+get weight of baggage
+if weight of baggage is more than 30
+    overweightby = (weight of baggage - 30) 
+    to pay = overweight * 12
+    output overweightby
+    output to pay
+else
+    print "You do not have to pay for your baggage"

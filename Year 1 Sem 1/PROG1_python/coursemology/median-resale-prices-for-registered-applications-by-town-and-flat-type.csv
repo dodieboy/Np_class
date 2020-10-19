@@ -1,0 +1,625 @@
+quarter,town,flat_type,price
+2017-Q1,Ang Mo Kio,1-room,na
+2017-Q1,Ang Mo Kio,2-room,-
+2017-Q1,Ang Mo Kio,3-room,315000
+2017-Q1,Ang Mo Kio,4-room,460000
+2017-Q1,Ang Mo Kio,5-room,688000
+2017-Q1,Ang Mo Kio,Executive,-
+2017-Q1,Bedok,1-room,na
+2017-Q1,Bedok,2-room,-
+2017-Q1,Bedok,3-room,305000
+2017-Q1,Bedok,4-room,410000
+2017-Q1,Bedok,5-room,552500
+2017-Q1,Bedok,Executive,-
+2017-Q1,Bishan,1-room,na
+2017-Q1,Bishan,2-room,na
+2017-Q1,Bishan,3-room,-
+2017-Q1,Bishan,4-room,547500
+2017-Q1,Bishan,5-room,745300
+2017-Q1,Bishan,Executive,-
+2017-Q1,Bukit Batok,1-room,na
+2017-Q1,Bukit Batok,2-room,na
+2017-Q1,Bukit Batok,3-room,276500
+2017-Q1,Bukit Batok,4-room,411000
+2017-Q1,Bukit Batok,5-room,-
+2017-Q1,Bukit Batok,Executive,-
+2017-Q1,Bukit Merah,1-room,-
+2017-Q1,Bukit Merah,2-room,-
+2017-Q1,Bukit Merah,3-room,358000
+2017-Q1,Bukit Merah,4-room,630000
+2017-Q1,Bukit Merah,5-room,750000
+2017-Q1,Bukit Merah,Executive,na
+2017-Q1,Bukit Panjang,1-room,na
+2017-Q1,Bukit Panjang,2-room,na
+2017-Q1,Bukit Panjang,3-room,-
+2017-Q1,Bukit Panjang,4-room,358000
+2017-Q1,Bukit Panjang,5-room,460000
+2017-Q1,Bukit Panjang,Executive,-
+2017-Q1,Bukit Timah,1-room,na
+2017-Q1,Bukit Timah,2-room,na
+2017-Q1,Bukit Timah,3-room,-
+2017-Q1,Bukit Timah,4-room,-
+2017-Q1,Bukit Timah,5-room,-
+2017-Q1,Bukit Timah,Executive,-
+2017-Q1,Central,1-room,na
+2017-Q1,Central,2-room,-
+2017-Q1,Central,3-room,-
+2017-Q1,Central,4-room,811500
+2017-Q1,Central,5-room,-
+2017-Q1,Central,Executive,na
+2017-Q1,Choa Chu Kang,1-room,na
+2017-Q1,Choa Chu Kang,2-room,na
+2017-Q1,Choa Chu Kang,3-room,-
+2017-Q1,Choa Chu Kang,4-room,343000
+2017-Q1,Choa Chu Kang,5-room,405000
+2017-Q1,Choa Chu Kang,Executive,553000
+2017-Q1,Clementi,1-room,na
+2017-Q1,Clementi,2-room,na
+2017-Q1,Clementi,3-room,340000
+2017-Q1,Clementi,4-room,530000
+2017-Q1,Clementi,5-room,-
+2017-Q1,Clementi,Executive,-
+2017-Q1,Geylang,1-room,na
+2017-Q1,Geylang,2-room,-
+2017-Q1,Geylang,3-room,281500
+2017-Q1,Geylang,4-room,513800
+2017-Q1,Geylang,5-room,-
+2017-Q1,Geylang,Executive,-
+2017-Q1,Hougang,1-room,na
+2017-Q1,Hougang,2-room,-
+2017-Q1,Hougang,3-room,296000
+2017-Q1,Hougang,4-room,390000
+2017-Q1,Hougang,5-room,478000
+2017-Q1,Hougang,Executive,630000
+2017-Q1,Jurong East,1-room,na
+2017-Q1,Jurong East,2-room,-
+2017-Q1,Jurong East,3-room,285000
+2017-Q1,Jurong East,4-room,410000
+2017-Q1,Jurong East,5-room,515000
+2017-Q1,Jurong East,Executive,-
+2017-Q1,Jurong West,1-room,na
+2017-Q1,Jurong West,2-room,-
+2017-Q1,Jurong West,3-room,274000
+2017-Q1,Jurong West,4-room,375000
+2017-Q1,Jurong West,5-room,462500
+2017-Q1,Jurong West,Executive,586500
+2017-Q1,Kallang/Whampoa,1-room,na
+2017-Q1,Kallang/Whampoa,2-room,-
+2017-Q1,Kallang/Whampoa,3-room,335000
+2017-Q1,Kallang/Whampoa,4-room,574000
+2017-Q1,Kallang/Whampoa,5-room,785000
+2017-Q1,Kallang/Whampoa,Executive,-
+2017-Q1,Marine Parade,1-room,na
+2017-Q1,Marine Parade,2-room,na
+2017-Q1,Marine Parade,3-room,-
+2017-Q1,Marine Parade,4-room,-
+2017-Q1,Marine Parade,5-room,-
+2017-Q1,Marine Parade,Executive,na
+2017-Q1,Pasir Ris,1-room,na
+2017-Q1,Pasir Ris,2-room,na
+2017-Q1,Pasir Ris,3-room,-
+2017-Q1,Pasir Ris,4-room,395000
+2017-Q1,Pasir Ris,5-room,475000
+2017-Q1,Pasir Ris,Executive,600000
+2017-Q1,Punggol,1-room,na
+2017-Q1,Punggol,2-room,na
+2017-Q1,Punggol,3-room,-
+2017-Q1,Punggol,4-room,452500
+2017-Q1,Punggol,5-room,450000
+2017-Q1,Punggol,Executive,-
+2017-Q1,Queenstown,1-room,na
+2017-Q1,Queenstown,2-room,-
+2017-Q1,Queenstown,3-room,340000
+2017-Q1,Queenstown,4-room,702500
+2017-Q1,Queenstown,5-room,-
+2017-Q1,Queenstown,Executive,-
+2017-Q1,Sembawang,1-room,na
+2017-Q1,Sembawang,2-room,na
+2017-Q1,Sembawang,3-room,-
+2017-Q1,Sembawang,4-room,365000
+2017-Q1,Sembawang,5-room,410000
+2017-Q1,Sembawang,Executive,-
+2017-Q1,Sengkang,1-room,na
+2017-Q1,Sengkang,2-room,-
+2017-Q1,Sengkang,3-room,-
+2017-Q1,Sengkang,4-room,415000
+2017-Q1,Sengkang,5-room,440000
+2017-Q1,Sengkang,Executive,561000
+2017-Q1,Serangoon,1-room,na
+2017-Q1,Serangoon,2-room,na
+2017-Q1,Serangoon,3-room,320000
+2017-Q1,Serangoon,4-room,443800
+2017-Q1,Serangoon,5-room,-
+2017-Q1,Serangoon,Executive,-
+2017-Q1,Tampines,1-room,na
+2017-Q1,Tampines,2-room,-
+2017-Q1,Tampines,3-room,319000
+2017-Q1,Tampines,4-room,423000
+2017-Q1,Tampines,5-room,519000
+2017-Q1,Tampines,Executive,655000
+2017-Q1,Toa Payoh,1-room,na
+2017-Q1,Toa Payoh,2-room,-
+2017-Q1,Toa Payoh,3-room,306000
+2017-Q1,Toa Payoh,4-room,631000
+2017-Q1,Toa Payoh,5-room,830000
+2017-Q1,Toa Payoh,Executive,-
+2017-Q1,Woodlands,1-room,na
+2017-Q1,Woodlands,2-room,na
+2017-Q1,Woodlands,3-room,265000
+2017-Q1,Woodlands,4-room,350000
+2017-Q1,Woodlands,5-room,420000
+2017-Q1,Woodlands,Executive,579000
+2017-Q1,Yishun,1-room,na
+2017-Q1,Yishun,2-room,-
+2017-Q1,Yishun,3-room,285000
+2017-Q1,Yishun,4-room,356000
+2017-Q1,Yishun,5-room,455000
+2017-Q1,Yishun,Executive,586500
+2017-Q2,Ang Mo Kio,1-room,na
+2017-Q2,Ang Mo Kio,2-room,-
+2017-Q2,Ang Mo Kio,3-room,308900
+2017-Q2,Ang Mo Kio,4-room,465500
+2017-Q2,Ang Mo Kio,5-room,667500
+2017-Q2,Ang Mo Kio,Executive,-
+2017-Q2,Bedok,1-room,na
+2017-Q2,Bedok,2-room,-
+2017-Q2,Bedok,3-room,300000
+2017-Q2,Bedok,4-room,415000
+2017-Q2,Bedok,5-room,560000
+2017-Q2,Bedok,Executive,-
+2017-Q2,Bishan,1-room,na
+2017-Q2,Bishan,2-room,na
+2017-Q2,Bishan,3-room,-
+2017-Q2,Bishan,4-room,568000
+2017-Q2,Bishan,5-room,779500
+2017-Q2,Bishan,Executive,-
+2017-Q2,Bukit Batok,1-room,na
+2017-Q2,Bukit Batok,2-room,na
+2017-Q2,Bukit Batok,3-room,275000
+2017-Q2,Bukit Batok,4-room,395000
+2017-Q2,Bukit Batok,5-room,535000
+2017-Q2,Bukit Batok,Executive,-
+2017-Q2,Bukit Merah,1-room,-
+2017-Q2,Bukit Merah,2-room,-
+2017-Q2,Bukit Merah,3-room,367500
+2017-Q2,Bukit Merah,4-room,688000
+2017-Q2,Bukit Merah,5-room,745000
+2017-Q2,Bukit Merah,Executive,na
+2017-Q2,Bukit Panjang,1-room,na
+2017-Q2,Bukit Panjang,2-room,-
+2017-Q2,Bukit Panjang,3-room,290000
+2017-Q2,Bukit Panjang,4-room,370000
+2017-Q2,Bukit Panjang,5-room,465000
+2017-Q2,Bukit Panjang,Executive,-
+2017-Q2,Bukit Timah,1-room,na
+2017-Q2,Bukit Timah,2-room,na
+2017-Q2,Bukit Timah,3-room,-
+2017-Q2,Bukit Timah,4-room,-
+2017-Q2,Bukit Timah,5-room,-
+2017-Q2,Bukit Timah,Executive,-
+2017-Q2,Central,1-room,na
+2017-Q2,Central,2-room,na
+2017-Q2,Central,3-room,410000
+2017-Q2,Central,4-room,-
+2017-Q2,Central,5-room,-
+2017-Q2,Central,Executive,na
+2017-Q2,Choa Chu Kang,1-room,na
+2017-Q2,Choa Chu Kang,2-room,na
+2017-Q2,Choa Chu Kang,3-room,-
+2017-Q2,Choa Chu Kang,4-room,345000
+2017-Q2,Choa Chu Kang,5-room,410000
+2017-Q2,Choa Chu Kang,Executive,520000
+2017-Q2,Clementi,1-room,na
+2017-Q2,Clementi,2-room,na
+2017-Q2,Clementi,3-room,342500
+2017-Q2,Clementi,4-room,610000
+2017-Q2,Clementi,5-room,-
+2017-Q2,Clementi,Executive,-
+2017-Q2,Geylang,1-room,na
+2017-Q2,Geylang,2-room,-
+2017-Q2,Geylang,3-room,270000
+2017-Q2,Geylang,4-room,500000
+2017-Q2,Geylang,5-room,610000
+2017-Q2,Geylang,Executive,-
+2017-Q2,Hougang,1-room,na
+2017-Q2,Hougang,2-room,-
+2017-Q2,Hougang,3-room,298000
+2017-Q2,Hougang,4-room,390000
+2017-Q2,Hougang,5-room,480000
+2017-Q2,Hougang,Executive,670000
+2017-Q2,Jurong East,1-room,na
+2017-Q2,Jurong East,2-room,-
+2017-Q2,Jurong East,3-room,295000
+2017-Q2,Jurong East,4-room,408000
+2017-Q2,Jurong East,5-room,-
+2017-Q2,Jurong East,Executive,-
+2017-Q2,Jurong West,1-room,na
+2017-Q2,Jurong West,2-room,-
+2017-Q2,Jurong West,3-room,272500
+2017-Q2,Jurong West,4-room,360000
+2017-Q2,Jurong West,5-room,468000
+2017-Q2,Jurong West,Executive,557500
+2017-Q2,Kallang/Whampoa,1-room,na
+2017-Q2,Kallang/Whampoa,2-room,-
+2017-Q2,Kallang/Whampoa,3-room,320000
+2017-Q2,Kallang/Whampoa,4-room,568500
+2017-Q2,Kallang/Whampoa,5-room,711500
+2017-Q2,Kallang/Whampoa,Executive,-
+2017-Q2,Marine Parade,1-room,na
+2017-Q2,Marine Parade,2-room,-
+2017-Q2,Marine Parade,3-room,400000
+2017-Q2,Marine Parade,4-room,-
+2017-Q2,Marine Parade,5-room,-
+2017-Q2,Marine Parade,Executive,na
+2017-Q2,Pasir Ris,1-room,na
+2017-Q2,Pasir Ris,2-room,na
+2017-Q2,Pasir Ris,3-room,-
+2017-Q2,Pasir Ris,4-room,400000
+2017-Q2,Pasir Ris,5-room,475000
+2017-Q2,Pasir Ris,Executive,620000
+2017-Q2,Punggol,1-room,na
+2017-Q2,Punggol,2-room,-
+2017-Q2,Punggol,3-room,360000
+2017-Q2,Punggol,4-room,441500
+2017-Q2,Punggol,5-room,440000
+2017-Q2,Punggol,Executive,-
+2017-Q2,Queenstown,1-room,na
+2017-Q2,Queenstown,2-room,-
+2017-Q2,Queenstown,3-room,369000
+2017-Q2,Queenstown,4-room,695000
+2017-Q2,Queenstown,5-room,-
+2017-Q2,Queenstown,Executive,-
+2017-Q2,Sembawang,1-room,na
+2017-Q2,Sembawang,2-room,na
+2017-Q2,Sembawang,3-room,na
+2017-Q2,Sembawang,4-room,349600
+2017-Q2,Sembawang,5-room,409000
+2017-Q2,Sembawang,Executive,485000
+2017-Q2,Sengkang,1-room,na
+2017-Q2,Sengkang,2-room,-
+2017-Q2,Sengkang,3-room,-
+2017-Q2,Sengkang,4-room,415000
+2017-Q2,Sengkang,5-room,440000
+2017-Q2,Sengkang,Executive,545000
+2017-Q2,Serangoon,1-room,na
+2017-Q2,Serangoon,2-room,na
+2017-Q2,Serangoon,3-room,326500
+2017-Q2,Serangoon,4-room,433900
+2017-Q2,Serangoon,5-room,-
+2017-Q2,Serangoon,Executive,-
+2017-Q2,Tampines,1-room,na
+2017-Q2,Tampines,2-room,na
+2017-Q2,Tampines,3-room,332000
+2017-Q2,Tampines,4-room,435000
+2017-Q2,Tampines,5-room,535000
+2017-Q2,Tampines,Executive,651500
+2017-Q2,Toa Payoh,1-room,na
+2017-Q2,Toa Payoh,2-room,-
+2017-Q2,Toa Payoh,3-room,304500
+2017-Q2,Toa Payoh,4-room,554000
+2017-Q2,Toa Payoh,5-room,754000
+2017-Q2,Toa Payoh,Executive,-
+2017-Q2,Woodlands,1-room,na
+2017-Q2,Woodlands,2-room,na
+2017-Q2,Woodlands,3-room,264000
+2017-Q2,Woodlands,4-room,346000
+2017-Q2,Woodlands,5-room,415000
+2017-Q2,Woodlands,Executive,575000
+2017-Q2,Yishun,1-room,na
+2017-Q2,Yishun,2-room,-
+2017-Q2,Yishun,3-room,280000
+2017-Q2,Yishun,4-room,358000
+2017-Q2,Yishun,5-room,465000
+2017-Q2,Yishun,Executive,-
+2017-Q3,Ang Mo Kio,1-room,na
+2017-Q3,Ang Mo Kio,2-room,-
+2017-Q3,Ang Mo Kio,3-room,310000
+2017-Q3,Ang Mo Kio,4-room,458000
+2017-Q3,Ang Mo Kio,5-room,665000
+2017-Q3,Ang Mo Kio,Executive,-
+2017-Q3,Bedok,1-room,na
+2017-Q3,Bedok,2-room,-
+2017-Q3,Bedok,3-room,300000
+2017-Q3,Bedok,4-room,420000
+2017-Q3,Bedok,5-room,563000
+2017-Q3,Bedok,Executive,-
+2017-Q3,Bishan,1-room,na
+2017-Q3,Bishan,2-room,na
+2017-Q3,Bishan,3-room,-
+2017-Q3,Bishan,4-room,580000
+2017-Q3,Bishan,5-room,770000
+2017-Q3,Bishan,Executive,-
+2017-Q3,Bukit Batok,1-room,na
+2017-Q3,Bukit Batok,2-room,na
+2017-Q3,Bukit Batok,3-room,272000
+2017-Q3,Bukit Batok,4-room,400000
+2017-Q3,Bukit Batok,5-room,547500
+2017-Q3,Bukit Batok,Executive,-
+2017-Q3,Bukit Merah,1-room,-
+2017-Q3,Bukit Merah,2-room,-
+2017-Q3,Bukit Merah,3-room,350000
+2017-Q3,Bukit Merah,4-room,692500
+2017-Q3,Bukit Merah,5-room,718500
+2017-Q3,Bukit Merah,Executive,na
+2017-Q3,Bukit Panjang,1-room,na
+2017-Q3,Bukit Panjang,2-room,na
+2017-Q3,Bukit Panjang,3-room,-
+2017-Q3,Bukit Panjang,4-room,375000
+2017-Q3,Bukit Panjang,5-room,471500
+2017-Q3,Bukit Panjang,Executive,590000
+2017-Q3,Bukit Timah,1-room,na
+2017-Q3,Bukit Timah,2-room,na
+2017-Q3,Bukit Timah,3-room,-
+2017-Q3,Bukit Timah,4-room,-
+2017-Q3,Bukit Timah,5-room,-
+2017-Q3,Bukit Timah,Executive,-
+2017-Q3,Central,1-room,na
+2017-Q3,Central,2-room,-
+2017-Q3,Central,3-room,-
+2017-Q3,Central,4-room,-
+2017-Q3,Central,5-room,-
+2017-Q3,Central,Executive,na
+2017-Q3,Choa Chu Kang,1-room,na
+2017-Q3,Choa Chu Kang,2-room,-
+2017-Q3,Choa Chu Kang,3-room,-
+2017-Q3,Choa Chu Kang,4-room,350000
+2017-Q3,Choa Chu Kang,5-room,408000
+2017-Q3,Choa Chu Kang,Executive,540000
+2017-Q3,Clementi,1-room,na
+2017-Q3,Clementi,2-room,na
+2017-Q3,Clementi,3-room,336000
+2017-Q3,Clementi,4-room,564800
+2017-Q3,Clementi,5-room,-
+2017-Q3,Clementi,Executive,-
+2017-Q3,Geylang,1-room,na
+2017-Q3,Geylang,2-room,-
+2017-Q3,Geylang,3-room,268000
+2017-Q3,Geylang,4-room,480000
+2017-Q3,Geylang,5-room,-
+2017-Q3,Geylang,Executive,-
+2017-Q3,Hougang,1-room,na
+2017-Q3,Hougang,2-room,-
+2017-Q3,Hougang,3-room,288000
+2017-Q3,Hougang,4-room,380000
+2017-Q3,Hougang,5-room,480400
+2017-Q3,Hougang,Executive,620000
+2017-Q3,Jurong East,1-room,na
+2017-Q3,Jurong East,2-room,-
+2017-Q3,Jurong East,3-room,280000
+2017-Q3,Jurong East,4-room,415000
+2017-Q3,Jurong East,5-room,513000
+2017-Q3,Jurong East,Executive,-
+2017-Q3,Jurong West,1-room,na
+2017-Q3,Jurong West,2-room,-
+2017-Q3,Jurong West,3-room,260000
+2017-Q3,Jurong West,4-room,363900
+2017-Q3,Jurong West,5-room,457000
+2017-Q3,Jurong West,Executive,580000
+2017-Q3,Kallang/Whampoa,1-room,na
+2017-Q3,Kallang/Whampoa,2-room,-
+2017-Q3,Kallang/Whampoa,3-room,326000
+2017-Q3,Kallang/Whampoa,4-room,533800
+2017-Q3,Kallang/Whampoa,5-room,702500
+2017-Q3,Kallang/Whampoa,Executive,-
+2017-Q3,Marine Parade,1-room,na
+2017-Q3,Marine Parade,2-room,na
+2017-Q3,Marine Parade,3-room,-
+2017-Q3,Marine Parade,4-room,-
+2017-Q3,Marine Parade,5-room,-
+2017-Q3,Marine Parade,Executive,na
+2017-Q3,Pasir Ris,1-room,na
+2017-Q3,Pasir Ris,2-room,na
+2017-Q3,Pasir Ris,3-room,-
+2017-Q3,Pasir Ris,4-room,405000
+2017-Q3,Pasir Ris,5-room,469000
+2017-Q3,Pasir Ris,Executive,597500
+2017-Q3,Punggol,1-room,na
+2017-Q3,Punggol,2-room,-
+2017-Q3,Punggol,3-room,358000
+2017-Q3,Punggol,4-room,438400
+2017-Q3,Punggol,5-room,432500
+2017-Q3,Punggol,Executive,-
+2017-Q3,Queenstown,1-room,na
+2017-Q3,Queenstown,2-room,-
+2017-Q3,Queenstown,3-room,355500
+2017-Q3,Queenstown,4-room,718000
+2017-Q3,Queenstown,5-room,800000
+2017-Q3,Queenstown,Executive,-
+2017-Q3,Sembawang,1-room,na
+2017-Q3,Sembawang,2-room,-
+2017-Q3,Sembawang,3-room,na
+2017-Q3,Sembawang,4-room,339000
+2017-Q3,Sembawang,5-room,405000
+2017-Q3,Sembawang,Executive,-
+2017-Q3,Sengkang,1-room,na
+2017-Q3,Sengkang,2-room,-
+2017-Q3,Sengkang,3-room,342000
+2017-Q3,Sengkang,4-room,415000
+2017-Q3,Sengkang,5-room,438000
+2017-Q3,Sengkang,Executive,565900
+2017-Q3,Serangoon,1-room,na
+2017-Q3,Serangoon,2-room,na
+2017-Q3,Serangoon,3-room,305000
+2017-Q3,Serangoon,4-room,456500
+2017-Q3,Serangoon,5-room,512000
+2017-Q3,Serangoon,Executive,-
+2017-Q3,Tampines,1-room,na
+2017-Q3,Tampines,2-room,-
+2017-Q3,Tampines,3-room,320000
+2017-Q3,Tampines,4-room,430000
+2017-Q3,Tampines,5-room,538900
+2017-Q3,Tampines,Executive,648000
+2017-Q3,Toa Payoh,1-room,na
+2017-Q3,Toa Payoh,2-room,-
+2017-Q3,Toa Payoh,3-room,302500
+2017-Q3,Toa Payoh,4-room,600000
+2017-Q3,Toa Payoh,5-room,880000
+2017-Q3,Toa Payoh,Executive,-
+2017-Q3,Woodlands,1-room,na
+2017-Q3,Woodlands,2-room,-
+2017-Q3,Woodlands,3-room,265000
+2017-Q3,Woodlands,4-room,348000
+2017-Q3,Woodlands,5-room,415000
+2017-Q3,Woodlands,Executive,617500
+2017-Q3,Yishun,1-room,na
+2017-Q3,Yishun,2-room,-
+2017-Q3,Yishun,3-room,280000
+2017-Q3,Yishun,4-room,350000
+2017-Q3,Yishun,5-room,470000
+2017-Q3,Yishun,Executive,-
+2017-Q4,Ang Mo Kio,1-room,na
+2017-Q4,Ang Mo Kio,2-room,-
+2017-Q4,Ang Mo Kio,3-room,300000
+2017-Q4,Ang Mo Kio,4-room,464000
+2017-Q4,Ang Mo Kio,5-room,660000
+2017-Q4,Ang Mo Kio,Executive,-
+2017-Q4,Bedok,1-room,na
+2017-Q4,Bedok,2-room,na
+2017-Q4,Bedok,3-room,300000
+2017-Q4,Bedok,4-room,418000
+2017-Q4,Bedok,5-room,586000
+2017-Q4,Bedok,Executive,696000
+2017-Q4,Bishan,1-room,na
+2017-Q4,Bishan,2-room,na
+2017-Q4,Bishan,3-room,-
+2017-Q4,Bishan,4-room,560000
+2017-Q4,Bishan,5-room,815000
+2017-Q4,Bishan,Executive,-
+2017-Q4,Bukit Batok,1-room,na
+2017-Q4,Bukit Batok,2-room,na
+2017-Q4,Bukit Batok,3-room,268000
+2017-Q4,Bukit Batok,4-room,391000
+2017-Q4,Bukit Batok,5-room,545000
+2017-Q4,Bukit Batok,Executive,-
+2017-Q4,Bukit Merah,1-room,-
+2017-Q4,Bukit Merah,2-room,-
+2017-Q4,Bukit Merah,3-room,365000
+2017-Q4,Bukit Merah,4-room,690000
+2017-Q4,Bukit Merah,5-room,768000
+2017-Q4,Bukit Merah,Executive,na
+2017-Q4,Bukit Panjang,1-room,na
+2017-Q4,Bukit Panjang,2-room,na
+2017-Q4,Bukit Panjang,3-room,283000
+2017-Q4,Bukit Panjang,4-room,365500
+2017-Q4,Bukit Panjang,5-room,456900
+2017-Q4,Bukit Panjang,Executive,585000
+2017-Q4,Bukit Timah,1-room,na
+2017-Q4,Bukit Timah,2-room,na
+2017-Q4,Bukit Timah,3-room,-
+2017-Q4,Bukit Timah,4-room,-
+2017-Q4,Bukit Timah,5-room,-
+2017-Q4,Bukit Timah,Executive,-
+2017-Q4,Central,1-room,na
+2017-Q4,Central,2-room,-
+2017-Q4,Central,3-room,412500
+2017-Q4,Central,4-room,-
+2017-Q4,Central,5-room,-
+2017-Q4,Central,Executive,na
+2017-Q4,Choa Chu Kang,1-room,na
+2017-Q4,Choa Chu Kang,2-room,-
+2017-Q4,Choa Chu Kang,3-room,270000
+2017-Q4,Choa Chu Kang,4-room,338000
+2017-Q4,Choa Chu Kang,5-room,410000
+2017-Q4,Choa Chu Kang,Executive,535000
+2017-Q4,Clementi,1-room,na
+2017-Q4,Clementi,2-room,-
+2017-Q4,Clementi,3-room,343500
+2017-Q4,Clementi,4-room,521500
+2017-Q4,Clementi,5-room,-
+2017-Q4,Clementi,Executive,-
+2017-Q4,Geylang,1-room,na
+2017-Q4,Geylang,2-room,-
+2017-Q4,Geylang,3-room,280000
+2017-Q4,Geylang,4-room,505000
+2017-Q4,Geylang,5-room,641400
+2017-Q4,Geylang,Executive,-
+2017-Q4,Hougang,1-room,na
+2017-Q4,Hougang,2-room,na
+2017-Q4,Hougang,3-room,283000
+2017-Q4,Hougang,4-room,380000
+2017-Q4,Hougang,5-room,472000
+2017-Q4,Hougang,Executive,650000
+2017-Q4,Jurong East,1-room,na
+2017-Q4,Jurong East,2-room,-
+2017-Q4,Jurong East,3-room,290000
+2017-Q4,Jurong East,4-room,435000
+2017-Q4,Jurong East,5-room,541500
+2017-Q4,Jurong East,Executive,-
+2017-Q4,Jurong West,1-room,na
+2017-Q4,Jurong West,2-room,-
+2017-Q4,Jurong West,3-room,270000
+2017-Q4,Jurong West,4-room,358000
+2017-Q4,Jurong West,5-room,449800
+2017-Q4,Jurong West,Executive,539000
+2017-Q4,Kallang/Whampoa,1-room,na
+2017-Q4,Kallang/Whampoa,2-room,-
+2017-Q4,Kallang/Whampoa,3-room,310000
+2017-Q4,Kallang/Whampoa,4-room,506300
+2017-Q4,Kallang/Whampoa,5-room,690000
+2017-Q4,Kallang/Whampoa,Executive,-
+2017-Q4,Marine Parade,1-room,na
+2017-Q4,Marine Parade,2-room,na
+2017-Q4,Marine Parade,3-room,-
+2017-Q4,Marine Parade,4-room,-
+2017-Q4,Marine Parade,5-room,-
+2017-Q4,Marine Parade,Executive,na
+2017-Q4,Pasir Ris,1-room,na
+2017-Q4,Pasir Ris,2-room,na
+2017-Q4,Pasir Ris,3-room,na
+2017-Q4,Pasir Ris,4-room,402500
+2017-Q4,Pasir Ris,5-room,475000
+2017-Q4,Pasir Ris,Executive,590000
+2017-Q4,Punggol,1-room,na
+2017-Q4,Punggol,2-room,-
+2017-Q4,Punggol,3-room,-
+2017-Q4,Punggol,4-room,440000
+2017-Q4,Punggol,5-room,438000
+2017-Q4,Punggol,Executive,-
+2017-Q4,Queenstown,1-room,na
+2017-Q4,Queenstown,2-room,-
+2017-Q4,Queenstown,3-room,345000
+2017-Q4,Queenstown,4-room,716000
+2017-Q4,Queenstown,5-room,-
+2017-Q4,Queenstown,Executive,-
+2017-Q4,Sembawang,1-room,na
+2017-Q4,Sembawang,2-room,-
+2017-Q4,Sembawang,3-room,na
+2017-Q4,Sembawang,4-room,340000
+2017-Q4,Sembawang,5-room,405000
+2017-Q4,Sembawang,Executive,-
+2017-Q4,Sengkang,1-room,na
+2017-Q4,Sengkang,2-room,-
+2017-Q4,Sengkang,3-room,340000
+2017-Q4,Sengkang,4-room,405000
+2017-Q4,Sengkang,5-room,440000
+2017-Q4,Sengkang,Executive,548000
+2017-Q4,Serangoon,1-room,na
+2017-Q4,Serangoon,2-room,na
+2017-Q4,Serangoon,3-room,321000
+2017-Q4,Serangoon,4-room,461500
+2017-Q4,Serangoon,5-room,-
+2017-Q4,Serangoon,Executive,675000
+2017-Q4,Tampines,1-room,na
+2017-Q4,Tampines,2-room,-
+2017-Q4,Tampines,3-room,334000
+2017-Q4,Tampines,4-room,430000
+2017-Q4,Tampines,5-room,534000
+2017-Q4,Tampines,Executive,650000
+2017-Q4,Toa Payoh,1-room,na
+2017-Q4,Toa Payoh,2-room,-
+2017-Q4,Toa Payoh,3-room,301900
+2017-Q4,Toa Payoh,4-room,620000
+2017-Q4,Toa Payoh,5-room,855000
+2017-Q4,Toa Payoh,Executive,-
+2017-Q4,Woodlands,1-room,na
+2017-Q4,Woodlands,2-room,-
+2017-Q4,Woodlands,3-room,259000
+2017-Q4,Woodlands,4-room,330000
+2017-Q4,Woodlands,5-room,408000
+2017-Q4,Woodlands,Executive,580000
+2017-Q4,Yishun,1-room,na
+2017-Q4,Yishun,2-room,-
+2017-Q4,Yishun,3-room,268000
+2017-Q4,Yishun,4-room,341000
+2017-Q4,Yishun,5-room,465000
+2017-Q4,Yishun,Executive,-
