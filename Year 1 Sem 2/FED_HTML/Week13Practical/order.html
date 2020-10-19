@@ -1,0 +1,67 @@
+<!--
+    Copyright (c) 2019 Alan Tan
+    This document is licensed under MIT license (See LICENSE for details)
+    SPDX-Short-Identifier: MIT
+-->
+
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Stint+Ultra+Expanded" rel="stylesheet" />
+        <link rel="stylesheet" href="css/bakery-styles.css" />
+        <link rel="stylesheet" href="css/order.css" />
+        <script src="https://www.w3schools.com/lib/w3.js"></script>
+        <title>Order</title>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div w3-include-html="header.html"></div>
+                </div>
+            </div>
+            <form onsubmit="submits(); return false;">
+                <div class="selection">
+                <label>Item: </label>
+                <select id="item" onchange="price_cal()">
+                    <option value="0" selected>Black bean purses</option>
+                    <option value="1">Southwestern Napoleons</option>
+                    <option value="2">Coconut-Corn Chowder</option>
+                    <option value="3">Jerk Rotisserie Chicken</option>
+                    <option value="4">Thai Shrimp Kebabs</option>
+                    <option value="5">Pasta Puttanesca</option>
+                </select>
+                <label> Quantity: </label>
+                <input type="number" min="1" max="5" value="1" id="quantity" onchange="price_cal()" required />
+                <br />
+                <label>Name: </label>
+                <input type="text" id="name" required />
+                <br />
+                <label>Collection Date: </label>
+                <input type="date" id="date" onchange="price_cal()" required />
+                <p id="outputs"></p>
+                </div>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+                <p id="complete_order"></p>
+            </form>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div w3-include-html="footer.html"></div>
+                </div>
+            </div>
+        </option>
+
+        <script>
+            w3.includeHTML();
+            $(".carousel").carousel();
+        </script>
+        <script src="js/order.js"></script>
+    </body>
+</html>

@@ -1,0 +1,113 @@
+﻿body {
+    font-family: Tahoma, Verdana, Geneva, sans-serif;
+    margin: 6em 6em;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    float: left;
+    margin-right: 10px;
+}
+
+li:last-of-type {
+    margin-right: 0;
+}
+
+a {
+    display: block;
+}
+
+img {
+    width: 200px;
+    height: 150px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s linear;
+    -webkit-transition: -webkit-transform 0.3s linear;
+}
+
+a:hover #img1,
+a:focus #img1 {
+    transform: rotate(-3deg);
+}
+a:hover #img2,
+a:focus #img2 {
+    transform: rotate(5deg);
+}
+a:hover #img3,
+a:focus #img3 {
+    transform: rotate(-7deg);
+}
+a:hover #img4,
+a:focus #img4 {
+    transform: rotate(2deg);
+}
+
+a:hover #img1 {
+    transform: rotate(-3deg) scale(1.5);
+}
+a:hover #img2 {
+    transform: rotate(5deg) scale(1.5);
+}
+a:hover #img3 {
+    transform: rotate(-7deg) scale(1.5);
+}
+a:hover #img4 {
+    transform: rotate(-2deg) scale(1.5);
+}
+
+a:hover img {
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Create a marquee text animation that move from right to left */
+/* Ref: https://stackoverflow.com/questions/21233033/css3-marquee-effect */
+
+/* Container for the marquee text */
+.marquee {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+/* <span> tag contains the text that is to be animated */
+.marquee span {
+    display: inline-block;
+    padding-left: 100%; /* show the marquee just outside the paragraph */
+    animation-name: marquee;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+/* Pause the marquee animation when hover over the text */
+.marquee span:hover {
+    animation-play-state: paused;
+}
+
+/* Make it moves */
+@keyframes marquee {
+    0% {
+        /* text at the original position, x-axis:0, y-axis:0,
+           note that the text has a left-padding of 100% of 
+           the width of the <p> container initially, hence
+           at (0,0) it is just hide after the right margin of
+           the <p> container */
+        transform: translate(0, 0);
+    }
+
+    100% {
+        /* text move out of the left margin of the screen, 
+           x-axis: -100%, y-axis: 0,
+           when the text is at (-100%, 0) (100% - full width of the text),
+           it is just completely hidden from the left margin of
+           the <p> container */
+        transform: translate(-100%, 0);
+    }
+}

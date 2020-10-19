@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29409.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "weel 1 - Admin Menu", "weel 1 - Admin Menu\weel 1 - Admin Menu.csproj", "{8FDC114C-D16B-47A0-8772-547CAB6EB5C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8FDC114C-D16B-47A0-8772-547CAB6EB5C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FDC114C-D16B-47A0-8772-547CAB6EB5C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FDC114C-D16B-47A0-8772-547CAB6EB5C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FDC114C-D16B-47A0-8772-547CAB6EB5C8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {900675BB-D3BE-4A7D-869A-D76E661EDAE2}
+	EndGlobalSection
+EndGlobal

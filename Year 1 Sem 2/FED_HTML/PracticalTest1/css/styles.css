@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    text-align: center;
+    border-collapse: collapse;
+    display: grid;
+}
+
+img {
+    max-width: 25%;
+    display: grid;
+}
+
+td,
+th,
+tr {
+    border: 1px solid black;
+    padding: 4px;
+}
+
+.imgs {
+    border: 0px none white;
+}
+
+caption {
+    font-size: 200%;
+}
+
+.lightpink {
+    background: lightpink;
+}
+
+.lightgrey {
+    background: lightgray;
+}
+
+.footerGraduation {
+    padding-top: 10;
+    color: red;
+}
+
+form {
+    width: 500px;
+    margin: 0, 50px;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+h2 {
+    text-align: center;
+}
+
+input,
+textarea,
+select {
+    display: inline-block;
+}
+
+label {
+    width: 150px;
+    display: inline-block;
+    padding: 10px;
+}
+
+.footerReg {
+    color: blue;
+    font: normal;
+}

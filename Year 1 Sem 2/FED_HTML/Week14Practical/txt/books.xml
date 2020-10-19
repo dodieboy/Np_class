@@ -1,0 +1,57 @@
+﻿<?xml version="1.0"?>
+<Library>
+  <List>
+    <Code>1</Code>
+    <BookName>Computer Architecture</BookName>
+    <Category>Computers</Category>
+    <Price>125.60</Price>
+  </List>
+  <List>
+    <Code>2</Code>
+    <BookName>Advanced Composite Materials</BookName>
+    <Category>Science</Category>
+    <Price>172.56</Price>
+  </List>
+  <List>
+    <Code>3</Code>
+    <BookName>Asp.Net 4 Blue Book</BookName>
+    <Category>Programming</Category>
+    <Price>56.00</Price>
+  </List>
+  <List>
+    <Code>4</Code>
+    <BookName>Stategies Unplugged</BookName>
+    <Category>Science</Category>
+    <Price>99.99</Price>
+  </List>
+  <List>
+    <Code>5</Code>
+    <BookName>Teaching Science</BookName>
+    <Category>Science</Category>
+    <Price>164.10</Price>
+  </List>
+  <List>
+    <Code>6</Code>
+    <BookName>Challenging Times</BookName>
+    <Category>Business</Category>
+    <Price>150.70</Price>
+  </List>
+  <List>
+    <Code>7</Code>
+    <BookName>Circuit Bending</BookName>
+    <Category>Science</Category>
+    <Price>112.00</Price>
+  </List>
+  <List>
+    <Code>8</Code>
+    <BookName>Popular Science</BookName>
+    <Category>Science</Category>
+    <Price>210.40</Price>
+  </List>
+  <List>
+    <Code>9</Code>
+    <BookName>ADOBE Premiere</BookName>
+    <Category>Computers</Category>
+    <Price>62.20</Price>
+  </List>
+</Library>

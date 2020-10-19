@@ -1,0 +1,50 @@
+﻿/*orderStyles.css*/
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Arial, serif;
+    font-size: 100%;
+    background-color: white;
+    margin: 0;
+}
+
+form {
+    border: 3px solid #783F27;
+    margin: auto;
+    padding: 10px 20px;
+}
+
+h1 {
+    color: brown;
+}
+
+fieldset {
+    padding: 20px 20px 0 20px;
+    border-radius: 10px;
+    border: 3px solid #783F27;
+    padding: 5px 10px;
+}
+legend {
+    width: auto;
+}
+.labelAlign {
+    display: inline-block;
+    width: 120px;
+    margin-left: 20px;
+}
+textarea {
+    vertical-align: top;   
+    margin-bottom: 5px;
+    width: 300px;
+}
+.boxWidth {
+    width: 300px;
+}
+
+#totalPrice {
+    color: brown;
+    font-size: 1.5rem;
+    margin-left: 20px;
+}

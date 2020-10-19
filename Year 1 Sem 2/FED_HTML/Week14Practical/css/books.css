@@ -1,0 +1,15 @@
+table {
+    font-family: Arial;
+    border: solid 2px;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: solid 1px;
+    padding: 4px;
+}
+
+caption {
+    font-size: 1.5em;
+}

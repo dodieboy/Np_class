@@ -1,0 +1,55 @@
+﻿<!--
+    Copyright (c) 2019 Alan Tan
+    This document is licensed under MIT license (See LICENSE for details)
+    SPDX-Short-Identifier: MIT
+-->
+
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Tan Jia Shun" />
+    <meta name="description" content="week:3 Using Embedded elements" />
+    <link rel="icon" type="image/x-icon" href="media/HTMLBadge.ico" />
+    <title>Using Embedded elements</title>
+</head>
+
+<body>
+    <h1>Week 3 Pratical</h1>
+    <h3>Using anchor &lta&gt</h3>
+    <a href="http://www.np.edu.sg" target="_blank">Ngee Ann Polytechnic</a>
+    <h3>Creating a hyperlink to an image</h3>
+    <img src="media/NPcrest.png" alt="Ngee Ann Polytechnic crest" />
+    <h3>Different size of the same image for different viewport sizes</h3>
+    <p>This image will resize based on the viewport</p>
+    <img src="media/HTML5.jpg" alt="The HTML5 Badge logo" srcset="media/HTML5.jpg 300w" sizes="(max-width: 200px) 25vw, (max-width: 400px) 50vw, (max-width: 600px) 75vw, 100vw" />
+    <h3>Different image files for different viewport sizes</h3>
+    <p>This image will change based on the width of viewport</p>
+    <picture>
+        <source media="(min-width: 650px)" srcset="media/img_pink_flowers.jpg">
+        <source media="(min-width: 465px)" srcset="media/img_white_flower.jpg">
+        <img src="media/img_orange_flowers.jpg" alt="Flowers" style="width:auto;">
+    </picture>
+    <cite>
+        <p>Source: W3 Schools</p>
+    </cite>
+    <h3>Screen resolution based image</h3>
+    <p>Provide different image files to cater for different screen resolutions</p>
+    <img src="media/image-src.png" srcset="media/image-1x.png 1x, media/image-2x.png 2x, media/image-3x.png 3x, media/image-4x.png 4x">
+    <h3>Image Map</h3>
+    <img src="media/Shapes.png" alt="Shapes" width="150" height="50" usemap="#shapeMap" />
+    <map name="shapeMap">
+        <area shape="rect" coords="0,0,50,50" alt="square" title="Square" href="https://en.wikipedia.org/wiki/Square"  target="_blank"/>
+        <area shape="circle" coords="75,25,25" alt="circle" title="Circle" href="https://en.wikipedia.org/wiki/Circle"  target="_blank"/>
+        <area shape="poly" coords="101,50,126,0,150,50" alt="triangle" title="Triangle" href="https://en.wikipedia.org/wiki/Triangle"  target="_blank"/>
+    </map>
+    <audio controls src="/media/O the Blood.mp3"></audio>
+    <video width="480" height="360" controls>
+        <source src="/media/BigBuckBunny.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</body>
+
+</html>
