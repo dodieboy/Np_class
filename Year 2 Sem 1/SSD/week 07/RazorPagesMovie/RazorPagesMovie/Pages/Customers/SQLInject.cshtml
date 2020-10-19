@@ -1,0 +1,95 @@
+﻿@page
+@model RazorPagesMovie.Pages.Customers.SQLInjectModel
+@{
+    ViewData["Title"] = "SQL Injection";
+}
+<h2>Index</h2>
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+@if (TempData["message"] != null)
+{
+    <p><font color="blue"><b>@TempData["message"]</b></font></p>
+}
+<form>
+    <div class="form-group">
+        Search by Name: <input asp-for="SearchString" size="60" />
+        <input type="submit" value="Search" asp-page-handler="Test" />
+        <p>
+            <span asp-validation-for="SearchString" class="text-danger"></span>
+        </p>
+    </div>
+</form>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Customer[0].Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Customer[0].Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Customer[0].Address)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Customer[0].Age)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Customer[0].PhoneNum)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Customer[0].Comment)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Customer)
+        {
+            <tr>
+                <td>
+                    @Html.Raw(item.Name)
+                </td>
+                <td>
+                    @Html.Raw(item.Email)
+                </td>
+                <td>
+                    @Html.Raw(Microsoft.Security.Application.Encoder.HtmlEncode(item.Address))
+                </td>
+                <td>
+                    @Html.Raw(item.Age)
+                </td>
+                <td>
+                    @Html.Raw(item.PhoneNum))
+                </td>
+                <td>
+                    @Html.Raw(Microsoft.Security.Application.Sanitizer.GetSafeHtmlFragment(item.Comment))
+                </td>
+                <td>
+                    <a asp-page="./Edit" asp-route-id="@item.CustomerID">Edit</a> |
+                    <a asp-page="./Details" asp-route-id="@item.CustomerID">Details</a> |
+                    <a asp-page="./Delete" asp-route-id="@item.CustomerID">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<hr />
+<p>
+<p>Inject the following code into the Search by Name Textbox:</p>
+<p>
+    First___ Example (replace jack with an existing name - ensure space after --):<font color="blue">
+        <input type="text" name="first" value="%'; Delete from Customers where Name='jack' -- "
+               readonly size="60">
+    </font>
+</p>
+<p>
+    Second Example (replace jack with an existing name - ensure space after --):<font color="blue">
+        <input type="text" name="first" value="%'; Update Customers SET Age=100000 where
+Name='jack' -- " readonly size="60">
+    </font>
+</p>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+} 
