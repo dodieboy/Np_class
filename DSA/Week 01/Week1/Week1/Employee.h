@@ -29,7 +29,7 @@ class Employee {
 			lastName = l;
 		}
 		void SetSalary(int s) {
-			if (s == 0) {
+			if (s <= 0) {
 				salary = 0;
 			}
 			else {
