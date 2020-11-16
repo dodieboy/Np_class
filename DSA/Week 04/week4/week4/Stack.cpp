@@ -41,6 +41,9 @@ void Stack::getTop(ItemType& item) {
 	if (!isEmpty()) {
 		item = topNode->item;
 	}
+	else {
+		item = "Stack is empty!";
+	}
 }
 void Stack::displayInOrder() {
 	if (!isEmpty()) {

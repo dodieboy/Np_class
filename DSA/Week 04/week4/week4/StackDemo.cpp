@@ -1,9 +1,9 @@
 #include "Stack.h"
 
-int main() {
+int demo() {
 	Stack s;
-	s.push(3);
-	s.push(4);
+	s.push("3");
+	s.push("4");
 
 	ItemType top;
 	s.getTop(top);
@@ -12,4 +12,5 @@ int main() {
 	s.displayInOrderOfInsertion();
 	s.pop();
 	s.displayInOrderOfInsertion();
+	return 0;
 }

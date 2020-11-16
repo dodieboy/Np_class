@@ -142,6 +142,7 @@
     <ClInclude Include="Stack.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="StackDemo.cpp" />
     <ClCompile Include="Stack.cpp" />
   </ItemGroup>
