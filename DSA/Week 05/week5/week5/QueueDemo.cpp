@@ -1,14 +1,41 @@
 #include "Stack.h"
 #include "Queue.h"
 
+//bool isPalindrome(string input) {
+//	int length = input.length();
+//	for (int i = 0; i <= length / 2; i++) {
+//		if (input[i] != input[length -1 - i]) {
+//			return false;
+//		}
+//	}
+//	return true;
+//}
+
 bool isPalindrome(string input) {
 	int length = input.length();
-	for (int i = 0; i <= length / 2; i++) {
-		if (input[i] != input[length -1 - i]) {
+	Stack a;
+	Queue b;
+	char x;
+	char y;
+	int tmp = 0;
+	for (int i = 0; i < length; i++) {
+		char currentChar = input[i];
+		a.push(currentChar);
+		b.enqueue(currentChar);
+	}
+
+	while (true)
+	{
+		if (tmp == length/2) {
+			return true;
+		}
+		a.pop(x);
+		b.dequeue(y);
+		if (x != y) {
 			return false;
 		}
+		tmp++;
 	}
-	return true;
 }
 
 int main() {
