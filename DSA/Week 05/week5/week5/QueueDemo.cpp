@@ -23,6 +23,11 @@ int main() {
 	q.dequeue();
 	q.displayItems();
 
+	q.dequeue();
+	q.dequeue();
+	q.dequeue();
+	q.displayItems();
+
 	string input;
 	cout << "Please enter a palindrome: ";
 	cin >> input;

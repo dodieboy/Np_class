@@ -24,7 +24,9 @@ bool Queue::enqueue(ItemType item) {
 
 bool Queue::dequeue() {
 	if (!isEmpty()) {
+		Node* tmp = frontNode;
 		frontNode = frontNode->next;
+		delete tmp;
 		return true;
 	}
 	return false;
@@ -33,7 +35,9 @@ bool Queue::dequeue() {
 bool Queue::dequeue(ItemType& item) {
 	if (!isEmpty()) {
 		getFront(item);
+		Node* tmp = frontNode;
 		frontNode = frontNode->next;
+		delete tmp;
 		return true;
 	}
 	return false;
@@ -51,4 +55,15 @@ bool Queue::isEmpty() {
 }
 
 void Queue::displayItems() {
+	if (!isEmpty()) {
+		Node* tmp = frontNode;
+		cout << "=============" << endl;
+		while (tmp->next != NULL)
+		{
+			cout << tmp->item.getName() << " | " << tmp->item.getQueueNum() << endl;
+			tmp = tmp->next;
+		}
+		cout << tmp->item.getName() << " | " << tmp->item.getQueueNum()  << endl;
+		cout << "=============" << endl;
+	}
 }
