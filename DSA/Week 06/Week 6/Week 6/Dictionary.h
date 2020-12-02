@@ -19,7 +19,7 @@ private:
 		Node     *next;	// pointer pointing to next item with same search key
 	};
 
-	Node *items[MAX_SIZE];
+	Node* items[MAX_SIZE];
 	int  size;			// number of items in the Dictionary
 
 public:
@@ -36,7 +36,7 @@ public:
 	// pre : none
 	// post: new item is added to the Dictionary
 	//       size of Dictionary is increased by 1
-	bool add(KeyType newKey, ItemType newItem);
+	bool add(KeyType Key, ItemType newItem);
 
 	// remove an item with the specified key in the Dictionary
 	// pre : key must exist in the Dictionary
