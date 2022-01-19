@@ -1,0 +1,47 @@
+﻿[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 0
+ScriptType: v4.00+
+Collisions: Normal
+PlayDepth: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,15,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,2,2,8,8,15,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.74,0:00:04.57,Default,,0,0,0,, Welcome to pioneer u plus
+Dialogue: 0,0:00:04.84,0:00:07.89,Default,,0,0,0,,The application where you can \Nlearn many thing related to IT
+Dialogue: 0,0:00:09.03,0:00:10.81,Default,,0,0,0,,Our applicaion provide many
+Dialogue: 0,0:00:10.83,0:00:12.87,Default,,0,0,0,,guided tutorial which you are interested in
+Dialogue: 0,0:00:13.34,0:00:15.03,Default,,0,0,0,,First click on tutorial
+Dialogue: 0,0:00:15.96,0:00:18.39,Default,,0,0,0,,Next, click on the tutorial \Nyou are interested in
+Dialogue: 0,0:00:18.96,0:00:22.18,Default,,0,0,0,,Lastly, see which topic you \Nare interested
+Dialogue: 0,0:00:22.88,0:00:24.30,Default,,0,0,0,,After selecting the topic
+Dialogue: 0,0:00:24.67,0:00:27.41,Default,,0,0,0,,It will provide you will \Na step by step video tutorial
+Dialogue: 0,0:00:27.43,0:00:29.21,Default,,0,0,0,,With subtitle you have selected
+Dialogue: 0,0:00:30.87,0:00:32.27,Default,,0,0,0,,After you are done \Nwith the video
+Dialogue: 0,0:00:32.77,0:00:33.83,Default,,0,0,0,,Click next
+Dialogue: 0,0:00:34.80,0:00:36.46,Default,,0,0,0,,It will bring you to a \Nsimulation game
+Dialogue: 0,0:00:36.49,0:00:37.71,Default,,0,0,0,,Where you can test your skill
+Dialogue: 0,0:00:37.99,0:00:39.27,Default,,0,0,0,,from the video you have watch
+Dialogue: 0,0:00:40.45,0:00:41.63,Default,,0,0,0,,In the simulation game
+Dialogue: 0,0:00:41.87,0:00:43.99,Default,,0,0,0,,You are able to earn\Npoint which can redeem
+Dialogue: 0,0:00:45.97,0:00:47.33,Default,,0,0,0,,So let go back to the \Nmenu
+Dialogue: 0,0:00:47.55,0:00:48.56,Default,,0,0,0,,Click on redeem
+Dialogue: 0,0:00:51.29,0:00:52.92,Default,,0,0,0,,It will show you the \Npoint you have
+Dialogue: 0,0:00:53.04,0:00:54.25,Default,,0,0,0,,and click redeem now
+Dialogue: 0,0:00:54.79,0:00:56.24,Default,,0,0,0,,It will provide you a list
+Dialogue: 0,0:00:56.26,0:00:57.76,Default,,0,0,0,,of wonder prize
+Dialogue: 0,0:01:01.58,0:01:03.31,Default,,0,0,0,,Our app also have leaderboard
+Dialogue: 0,0:01:03.34,0:01:05.34,Default,,0,0,0,,Where you can see you \Nand your friend
+Dialogue: 0,0:01:07.06,0:01:08.29,Default,,0,0,0,,So let click on leaderboard
+Dialogue: 0,0:01:08.68,0:01:10.53,Default,,0,0,0,,As you can see, you are 4th
+Dialogue: 0,0:01:10.56,0:01:11.77,Default,,0,0,0,,among your freinds
+Dialogue: 0,0:01:14.50,0:01:15.50,Default,,0,0,0,,Lastly
+Dialogue: 0,0:01:15.53,0:01:17.06,Default,,0,0,0,,You can change the \Nword size,
+Dialogue: 0,0:01:17.09,0:01:18.69,Default,,0,0,0,,color and language\N in the setting
+Dialogue: 0,0:01:18.71,0:01:20.51,Default,,0,0,0,,by click on setting in the menu
+Dialogue: 0,0:01:22.93,0:01:24.46,Default,,0,0,0,,This is the end of this video
+Dialogue: 0,0:01:24.49,0:01:26.49,Default,,0,0,0,,please enjoy the \Napplication
